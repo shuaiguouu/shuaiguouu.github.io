@@ -1,5 +1,4 @@
+_site
+.sass-cache
+.c9
 Gemfile.lock
-_site/
-_posts/
-category/
-*~
