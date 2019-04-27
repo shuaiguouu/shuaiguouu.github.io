@@ -1,39 +1,40 @@
-# Dependencies
-markdown:            kramdown
-highlighter:         rouge
+# Jekyll configuration
 
-# Gems (for Jekyll 3.0)
-gems: [jekyll-paginate]
+name: My blog
+description: A jekyll theme
 
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+# url is currently only used only for the RSS feed in feed.xml
+url: https://scotte.github.io/jekyll-clean
 
-# Setup
-title:               Naringu
-tagline:             'A Hacker like jekyll theme'
-description:         'oonlab is crafted with <3 by ariestiyansyah.'
-url:                 http://naringu.oonlab.com
-baseurl:             /
-paginate:            7
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: /jekyll-clean
 
-# About/contact
-author:
-  name:              Rizky Ariestiyansyah
-  url:               https://twitter.com/ariestiyansyah
-  email:             ariestiyansyah.rizky@gmail.com
+# These can be '' to hide the Github or Gitlab nav buttons
+github: 'scotte/jekyll-clean'
+gitlab: ''
 
-# Custom vars
-version:             2.0
+# Set this to your UA-# value, or '' to disable the block completely
+gaaccount: ''
 
-# Social Media
-github:				http://github.com/ariestiyansyah
-twitter:			http://twitter.com/ariestiyansyah
-disqus:             testnaringu
+# The 'comments' setting enables comments. You'll need to select either
+# disqus or isso below to choose a comment system. Individual posts can
+# override 'comments' to disable on a post-by-post basis.
+comments: true
 
-# Theme Author (Please don't edit this line cause of MIT LICENSE rules)
-theme:
-  creator:			Rizky Ariestiyansyah
-  codename:			Naringu
-  link:             https://github.com/ariestiyansyah/naringu
+# Set this to your public isso URL to enable comments via isso. Set to '' to disable isso.
+isso: ''
+
+# Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
+disqus: ''
+
+permalink: /:year/:month/:title
+paginate: 3
+
+highlighter: rouge
+markdown: kramdown
+gems: ['jekyll-paginate']
+
+exclude: ['README.md', 'LICENSE']
