@@ -1,59 +1,159 @@
-flex
-====
+# RLStevenson - Bootstrap Clone of Hyde
 
-Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
+RLStevenson was built for people who like the original Jekyll theme [Hyde](https://github.com/poole/hyde) but would like to use [Bootstrap](http://getbootstrap.com).
 
-The theme is based on the website [The Development](http://thedevelopment.co).
+The theme was built from an empty Bootstrap 3 template with the goal of easy modification for end users. The code is as simple as possible - clearly formatted HTML and a single stylesheet. It's a two column responsive design and currently includes version 3.3.7 of Bootstrap.
 
-View a demo website [here](http://the-development.github.io/flex/).
+Pull requests are welcome.
 
-Installation
-===
-To use this theme, you would do so like any other Jekyll setup:
+![RLStevenson Screenshot](http://i.imgur.com/yLkV7Ws.png)
 
-1. Install Jekyll: `gem install jekyll`
-2. Fork this repository to your machine
-3. `cd` to the forked directory and run `jekyll serve --watch`
-4. Celebrate and dance.
+## Installation
 
-Contributions
-===
+Add this line to your Jekyll site's Gemfile:
 
-In general, there are no strict rules for contributing, only that your code is clean and well structured.
+```ruby
+gem "rlstevenson-jekyll-theme"
+```
 
-For bugs:
-- To merge a fix, you can simply open a pull request.
-- To report one that is not yet fixed, open an issue.
+And add this line to your Jekyll site:
 
-Feature requests:
-- **Always** open an issue first before implementing and proposing a new feature. This is only so I can make sure the theme doesn't become bloated with too many features. This way, I can determine if an idea is something that makes sense for the theme's design.
+```yaml
+theme: rlstevenson-jekyll-theme
+```
 
-If in doubt, you can always ask me on Twitter: [@jeffxmn](https://twitter.com/jeffxmn)
+And then execute:
 
-License
-===
+    $ bundle
 
-Flex is licensed under the MIT license:
+Or install it yourself as:
+
+    $ gem install rlstevenson-jekyll-theme
+
+The Ruby Gem page is here: [rlstevenson-jekyll-theme](https://rubygems.org/gems/rlstevenson-jekyll-theme)
+
+## Usage & Config Options
+
+There are a number of options you can set in your `_config.yml` file.
+
+The `description` variable will appear after the Title of your site in your `<title>` meta tag:
+
+	description: 'A two coloumn blog theme built with Bootstrap for Jekyll.'
+
+### Sidebar
+
+The `description` variable will also appear below the title in your sidebar.
+
+The `freetext` will appear in a free paragraph below the Title & sidebarDescription and above the menu links. Set it to "" if you don't want it.
+
+	freetext: 'A optional paragraph of free text. Set to blank in _config.yml to clear...'
+
+### Sidebar Menu Links
+
+Take a look at `_data/menu.yml` file to see how you can add menu items to your sidebar.
+
+### Pagination
+
+Simply set the `paginate:` option in your `_config.yml` file to the number of articles you want to show per page. You may need to use the `bundle install` command with Jekyll 3 to make sure you have the `jekyll-paginate` gem.
+
+Alternatively you can disable pagination by not including the `paginate:` option.
+
+### Color Schemes
+
+In keeping with our attempt to replicate the original Hyde in Bootstrap we've included some colour scheme options. These are not the same as in the original, but we used palettes from the same [Base16](https://github.com/chriskempson/base16) project.
+
+![RLStevenson in Gulf Racing](http://i.imgur.com/ktfByqp.png)
+
+Using a theme is as simple as changing the `colorscheme` param in your `_config.yml`.
+
+The themes are:
+
+- Dark Brown (`colorscheme:	'scheme-darkbrown'`)
+- Light Brown (`colorscheme:	'scheme-lightbrown'`)
+- Green (`colorscheme:		'scheme-green'`)
+- Orange (`colorscheme:		'scheme-orange'`)
+- Slate (`colorscheme:		'scheme-slate'`)
+
+And then a bonus theme that isn't from Base16:
+
+- Gulf Racing (`colorscheme:	'scheme-gulfracing'`)
+
+#### Creating Your Own Color Scheme
+
+To create your own custom color scheme simply scroll to the end of the `rlstevenson.scss` stylesheet in the `_sass` folder and edit the template we've left there.
+
+We'll happily accept pull requests for quality color schemes.
+
+### Analytics
+
+This theme supports GA & Piwik integration.
+
+For Google Analytics, simply set your UA number in your `_config.yml` file. Example:
+
+	ga:		'UA-123-456'
+
+For Piwik, use the following two variables:
+
+	piwikSiteID:	''
+	piwikURL:	''
+
+## Example Config
+
+Here is a full example `_config.yml`:
+
+	##
+	# RLStevenson Theme Options
+	####
+
+	title:		RLStevenson
+	description:	'A Bootstrap based clone of the Hyde theme by mdo.'
+	freetext:	'Released under an MIT license - feel free to make pull requests.'
+	url:		/
+	baseurl:	/
+	paginate:	5
+	version:	0.1.0
+	colorscheme:	scheme-lightbrown
+
+	ga:		'UA-123-456'
+	piwikSiteID:	''
+	piwikURL:	''
+
+	author:
+	 url:		https://www.exchangerate-api.com
+	 name:		'ExchangeRate-API'
+
+	gems:		[jekyll-paginate]
+
+	exclude:	['README.md', 'Gemfile.lock', 'Gemfile', 'rlstevenson.gemspec']
 
 
-The MIT License (MIT)
+## Author
 
-Copyright (c) 2013-2014 Jeff Martin
+**ExchangeRate-API.com**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+- <https://github.com/ExchangeRate-API/>
+- <https://www.exchangerate-api.com>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+#### RLStevenson Uses Bootstrap
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+**Bootstrap**
+
+ - <http://getbootstrap.com>
+
+
+## Inspired By
+
+**Mark Otto** - creator of the Hyde theme
+
+- <https://github.com/mdo>
+- <https://twitter.com/mdo>
+
+
+## Contributing
+
+Bug reports and pull requests are welcomed.
+
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
