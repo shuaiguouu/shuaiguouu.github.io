@@ -1,31 +1,13 @@
 ---
-layout: default
+layout: layout
 ---
 
+{% include employment.html %}
 
- <div class="post-container">
+{% include education.html %}
 
-  <h2 class="post-title">Blog</h2>
+{% include skills.html %}
 
-  <hr>
+{% include initiatives.html %}
 
-  {% for post in site.posts %}
-    <div class ="post-preview">
-      <span class="post-title">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title }}
-        </a>
-      </span>
-
-      <span class="post-time">
-        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      </span>
-
-
-    </div>
-
-    {% endfor %}
-
-
-
-</div>
+{% include interests.html %}
