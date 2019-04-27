@@ -1,9 +1,23 @@
-name: Solar Theme
-url: http://example.org
-description: A stylish blog using the Solarized color palette
+name: Wangana
+description:  Jekyll theme
 
-permalink: /:year/:month/:day/:title/
-paginate: 10
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
 
-gems: [jekyll-paginate]
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
+url: https://thesowah.github.io/wangana
+permalink: /:year/:month/:title/
+owner:
+    name: #
+    twitter: #
+    github: #
+    disqus_shortname: #
+
+ga_id: #
+ga_username: #
+
+timezone: Africa/Accra

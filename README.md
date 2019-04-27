@@ -1,44 +1,44 @@
-Solar Theme for Jekyll
-======================
+![favicon](https://raw.github.com/iamnii/wangana/master/favicon.png) Wangana - Jekyll Theme
+==============
 
-A stylish theme for [Jekyll](http://jekyllrb.com/) blogs, based on the [Solarized](http://ethanschoonover.com/solarized) color palette.
+Wangana is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog. Created with love by [iamnii](https://twitter.com/thesowah).
 
-![Screenshot](http://i.imgur.com/UnnRhkt.png)
+* Demo [here](http://thesowah.github.io/wangana/)
 
+## Screenshot
+![screenshot](https://raw.github.com/thesowah/wangana/master/assets/images/wangana.png)
 
-Features
--------
+## Contributing
+1. Fork the theme ( https://github.com/thesowah/wangana/fork ) The `master` branch is for development and pull requests. The `gh-pages` branch is for the demo page; don't bother.
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
 
-* **Two color schemes** — One for Solarized Dark and one for Solarized Light. Just swap the reference to the `colors-dark.css` file with `colors-light.css` if you don't like light-on-dark.
-* **Linkblog support** — Solar will turn your post title into an external link if you add `external-url: http://example.org` to a post's YAML front matter.
-* **Responsive Design** — Solarized adapts to fit any screen size.
+## Issues
+[Open](https://github.com/iamnii/wangana/issues/new) issues if you run into trouble or have suggestions. Pull Requests always welcome.
 
+## Installation & Usage
+1 > [Download](https://github.com/thesowah/wangana/archive/master.zip) package
 
-Installation
---------------
+2 > Fill in the details of the configuration file (/_config.yml) by uncommenting the differents and edit to taste
+Edit: _config.yml (general options), main.css (theme colors & fonts)
+``` bat
+wangana/
+├── _config.yml
+├── _assets/
+    ├── _scss/
+        ├── main.scss
+```
 
-There are two ways to use Solar. You can either clone-and-go, copying the repository and tweaking the contents to taste, or you can cherry-pick the files you want and integrate them into an existing Jekyll instance. 
+3 > Run locally with the following commands while in the root directory and view in a browser at localhost:4000
+``` bat
+$ jekyll build
+# Compile and build site files
 
-If you're starting a new blog, you want to clone-and-go. Just `git clone https://github.com/redwallhp/solar-theme-jekyll.git`, make any changes you want to the template, pages or `_config.yml` and start blogging with Jekyll. Easy.
+$ jekyll serve --watch
+# Serve site locally
+```
 
-If you're wanting to replace the theme of an existing Jekyll blog, either option should work. If you want to replace files individually, the files and directories you want to make sure to copy are:
-
-1. `_layouts`
-2. `archives`
-3. `assets`
-4. `feed.xml`
-5. `index.xml`
-
-You'll also want to compare Solar's `_config.yml` with your own, making any appropriate changes.
-
-
-Demo
--------
-
-You can see a demo of Solar [right here on GitHub Pages.](http://mattvh.github.io/solar-theme-jekyll/)
-
-
-License
----------
-
-GPLv2 or higher
+## Copyright & License
+The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
