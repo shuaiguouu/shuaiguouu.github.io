@@ -1,51 +1,57 @@
-name:               "Ink"
-description:        "A minimalistic jekyll theme for humans"
+title: Geeky corner
+description: Much-Worse Jekyll theme for academic page and blog
+sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
 
-url:                ""
-author:             "thinker3197"
-email:              "jhondoe@abc.com"
-gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
-twitter:            "jhondoe"
-email:              "jhondoe@abc.com"
-github:             "jhondoe"
-pinterest:          "jhondoe"
-linkedin:           "jhondoe"
-facebook:           "jhondoe"
+permalink: blog/:year/:month/:day/:title
+exclude: ["Makefile", "README.md"]
 
-disqus_shortname:   "thinker3197"
+url: "http://gchauras.github.io"     # the base hostname & protocol for your site
+baseurl: "/much-worse-jekyll-theme"                   # the subpath of your site, e.g. /blog
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+author:
+    name:
+    facebook:
+    scholar:
 
-paginate:           5
-paginate_path:      "/page:num/"
+# Build settings
+markdown: kramdown
+highlighter: rouge
 
-baseurl:            ""
-permalink:          /:year/:month/:day/:title/
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#
+analytics:
+    provider:
+    statcounter:
+        sc_project  :
+        sc_security :
+        sc_invisible: 1
+        sc_text     : 2
+    google:
+        tracking_id: ''
+    getclicky:
+      site_id:
+    mixpanel:
+        token: ''
+    piwik:
+        baseURL: '' # Piwik installation address (without protocol)
+        idsite: ''  # the id of the site on Piwik
 
-markdown:           kramdown
-
-nav:
-  - name:           "About"
-    href:           "/about"
-  - name:           "Download"
-    href:           "/releases"
-
-sass:
-  style:            :compressed
-
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-
-gems:
-  - jekyll-paginate
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use.
+# Set 'provider' to false to turn commenting off globally.
+#
+comments:
+    provider:
+    disqus:
+      short_name:
+    livefyre:
+      site_id:
+    intensedebate:
+      account:
+    facebook:
+      appid:
+      num_posts: 5
+      width: 580
+      colorscheme: light

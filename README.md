@@ -1,50 +1,17 @@
-# Ink
+# Much-Worse jekyll theme
 
-Ink is a minmal two-column theme for [Jekyll](http://jekyllrb.com) 
+This theme is avaiable under [MIT License](https://opensource.org/licenses/MIT).
 
-![Screenshot](https://s32.postimg.org/gdtp6pw1x/ink.png)
+This is a modified version of [Steve Miller's NGVM theme](http://jekyllthemes.org/themes/svm-ngvb/). Since this work is a derivative of Prof. Miller's, therefore it is only fair that I honour his self-deprecating spirit and name this **much-worse**. I prefer large seriff fonts and minimal coloring and styling. Apart form the typography, color scheme and layout,
+this theme has two useful changes:
 
-# Installation 
+- It allows you to maintain your website as a subdirectory on your university of company domain (e.g. http://university.edu/department/people/your-website). Most Jekyll blogs are
+designed to be hosted at custom domain names.
 
-##### Setup on your local machine
- * Clone or download the repository
- * You should have [ruby](https://www.ruby-lang.org/en/) installed in your system
- * Install bundler which helps in specifying and installing dependencies of any Ruby project ```gem install bundler```
- * Go to the root of the repo and run this - ```bundle install```
- * Then - ```bundle exec jekyll serve```
+- Most jekyll themes are blog-centric, or single page websites. This theme lets you create multi-page website with a blog if you want.
 
-##### Make it your own
- * Fork the repository
- * Follow the configuration step
- * Host your site/blog with **Ink**
+Both the above are not seminal achievements in science, but they are useful. This theme also supports site analytics including [Statcounter](http://statcounter.com) and major comment providers for blogs.
 
-# Configuration 
- * Change the following in ```_config.yml```
- ```
-    name:               "Ink"
-    description:        "A minimalistic jekyll theme for humans"
-    url:                ""
-    author:             "thinker3197"
-    email:              "jhondoe@abc.com"
-    gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
-    twitter:            "jhondoe"
-    email:              "jhondoe@abc.com"
-    github:             "jhondoe"
-    pinterest:          "jhondoe"
-    linkedin:           "jhondoe"
-    facebook:           "jhondoe"
-    
- ```
- * Set the number of posts that appear in each page by changing the ```paginate``` option in ```_config.yml``` file. Default value is 5.
- * Add more navigation menus in the ```nav``` section in ```_config.yml```. 
- * Add your custom url in ```url``` option. Example : http://thinker3197.github.io/blog. Consult the ```gh-pages``` branch to see the basic setup for a blog.
- * Add your custom background by adding a custom background link in the ```background``` option in ```_config.yml```.
- 
-# Licensce
+See it in action [here](http://people.csail.mit.edu/gchauras).
 
-Open sourced under [MIT LICENSE](https://github.com/thinker3197/ink/blob/master/LICENSE) 
-
-
-
-
-
+Feel free to send me pull requests with better responsive performance or cleaner HTML/CSS.
