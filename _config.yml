@@ -1,40 +1,20 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: rouge
+# Sidebar settings
+description: One sentence introducing yourself or what you do
+
+# Social icons
+facebook: username
+linkedin: username
+github: username
+deviantart: username
+codepen: username
+
+footer: © Taken theme
+
+# Build settings
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: dbyll
-
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: dbyll
-
-description: Stylish Jekyll Theme
-author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
-
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
-
-BASE_PATH:
-
-plugins:
-  - jekyll-paginate

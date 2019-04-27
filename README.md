@@ -1,37 +1,35 @@
-dbyll
-=====
+# taken
 
-Open source stylish, minimalistic theme for jekyll.  
-Demo: http://dbtek.github.io/dbyll/
+Taken is a minimalist two-column jekyll theme based on chapter tumblr theme 
 
-## New
-- Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
-- :new: Check out [Paper](https://github.com/dbtek/paper), new Material Design Jekyll theme.
+![Taken](https://github.com/vfalanis/taken/blob/master/Taken.png)
 
-### Features
-- Responsive layout.
-- Supports tags and categories.
-- Social profile and bio of author.
-- Bootstrap based.
-- Glyphicon and Font-Awesome Icons.
-- Pagination.
-- Syntax highlighting with pygments.
-- Disqus comments.
-- :new: Custom sidebar background image.
+## Updates
+
+Note: There's a stable branch (v1.0) which includes the default taken theme.
+Master and gh-pages branch now include the latest changes:
+
+* Better responsive support ( sidebar collapse)
+* Fade in animations
 
 
-### Download
-* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
+## Features
+* Flickr feed
+* Disqus
+* more ...
 
-### Install
-- You need to have [ruby](https://www.ruby-lang.org/en/documentation/installation/) installed in your system.
-- Install bundler which helps in specifying and installing dependencies of any Ruby project. ```gem install bundler```
-- Go to the root of the repo and run this - ```bundle install```
-- Then - ```bundle exec jekyll serve```
+## Demo
+You can see a live demo of "taken" [here](http://vfalanis.github.io/taken)
 
-### Screenshots
-![dbyll-screenshot](assets/media/dbyll-ss.png)
+## Instructions
 
-### License
-- [MIT](http://opensource.org/licenses/MIT)
+1. Fork this repository
+2. Clone the repository to your computer.<br />`git clone https://github.com/YOURUSERNAME/taken.git` 
+3. Run it.<br />`jekyll serve`
+4. Go to http://127.0.0.1:4000.
 
+## To do list:
+* Categories support
+* Add portfolio section
+* Flickr plugin animation and configuration
+* More...
