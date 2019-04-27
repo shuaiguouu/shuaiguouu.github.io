@@ -1,5 +1,7 @@
+*.gem
+.bundle
+.sass-cache
 _site
 Gemfile.lock
-.sass-cache
-*.gem
-*.gemspec
+.DS_Store
+vendor

@@ -1,30 +1,13 @@
+title: Brume
+author: Aigars Dzerviniks
+description: It's simple. It's easy to use. It's a Jekyll theme.
 
-##
-# RLStevenson Theme Options
-####
+highlighter: null
+permalink: /:title
 
-# For baseurl:
-# Use '' for / or '/your-dir' for another directory
+url:
+baseurl:
 
-title:		RLStevenson
-description:	'A Bootstrap based clone of the Hyde theme by mdo.'
-freetext:	'Released under an MIT license - feel free to make pull requests.'
-baseurl:	'/'
-paginate:	3
-version:	0.1.0
-colorscheme:	scheme-gulfracing
-
-ga:		'UA-123-456'
-piwikSiteID:	''
-piwikURL:	''
-
-author:
- url:		https://www.exchangerate-api.com
- name:		'ExchangeRate-API'
-
-github:
- repo:		https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme
-
-gems:		[jekyll-paginate]
-
-exclude:	['README.md', 'Gemfile.lock', 'Gemfile', '*.gemspec', '*.gem']
+# Custom options:
+# color_scheme: azul|ruby|amber|avocado
+# color_scheme: avocado

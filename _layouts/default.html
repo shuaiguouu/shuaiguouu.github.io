@@ -1,20 +1,39 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <main class="container {% if site.color_scheme %}{{ site.color_scheme }}{% else %}avocado{% endif %}">
+      {% if page.title == "Home" %}
+      <header class="fadeInLeft animated">
+      {% else %}
+      <header>
+      {% endif %}
+        <div>
+          <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
+             style="background-image: url({{ '/assets/images/logo.png' | relative_url }});"></a>
+        </div>
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-4 col-md-3 col-lg-3 sidebar">
+        {% include navigation.html %}
+      </header>
 
-			{% include sidebar-content.html %}
+      {{ content }}
 
-			</div>
-			<div class="col-sm-7 col-sm-offset-4 col-md-6 col-md-offset-3 col-lg-5 col-lg-offset-3 content">
+      <footer>
+        <p>
+          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en_US">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+        </p>
+      </footer>
+    </main>
 
-				{{ content }}
-
-			</div>
-			<div class="col-sm-1 col-md-3 col-md-4">
-			</div>
-		</div>
-	</div>
-
-{% include footer.html %}
+    <!-- scripts -->
+    <script src="{{ '/assets/js/fluidvids.min.js' | relative_url }}"></script>
+    <script>
+      fluidvids.init({
+        selector: ['iframe', 'object'],
+        players: ['www.youtube.com', 'player.vimeo.com']
+      });
+    </script>
+  </body>
+</html>
