@@ -1,10 +1,13 @@
-permalink: /posts/:title
-markdown: kramdown
+title: Brume
+author: Aigars Dzerviniks
+description: It's simple. It's easy to use. It's a Jekyll theme.
 
-gems:
-  - jekyll-sitemap
+highlighter: null
+permalink: /:title
 
-name: Zach Holman
-url: https://zachholman.com/left
-description: A fantastic blog that is fantastic.
-twitter: holman
+url:
+baseurl:
+
+# Custom options:
+# color_scheme: azul|ruby|amber|avocado
+# color_scheme: avocado
