@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# 中国古代的“华夷观”与“民族观”
+<!-- 首先我必须承认这是一个很大、很重要、又经常引起误解的问题，我既非专业学者又没有广泛深入的积累，只是出于兴趣，在有限的范围内做了有限的学习和辨析，得到了一个属于自己的、需要不断修正的观点。诚然我也会更加努力地去学习和进步。谨在此将我不成熟的观点分享如下，希望能够收到更多批评和指正，并且在同样有兴趣的读者之间引发有益的讨论和思考。 -->
 
-You can use the [editor on GitHub](https://github.com/ShuaiGuo95/ShuaiGuo95.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+现代国际体系是以民族国家为基本单位的，多数国家都自认为是民族国家。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ShuaiGuo95/ShuaiGuo95.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##一 、“民族”是什么
+我们在讨论“民族”概念的时候，一定讨论的是
