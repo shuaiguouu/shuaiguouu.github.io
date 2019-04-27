@@ -1,4 +1,9 @@
 _site
-.sass-cache
+.coffeehintrc
+.jshintrc
+img/Thumbs.db
 .DS_Store
-_vendor
+._.DS_Store
+node_modules
+.sass-cache
+.ruby-version
