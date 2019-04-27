@@ -1,40 +1,59 @@
-# brume
+# Resume template
 
-I am not a designer so I cannot impress you with breathtaking Jekyll themes, but brume is something that just came to my mind and I had to build it. It is a clean and simple theme, which has an index page that lists all your blog posts divided by the year, a single post page and a layout for any additional pages you might need.
+*A simple Jekyll + GitHub Pages powered resume template.*
 
-This is how the "Home" page looks like.
+![img](images/screenshot.png)
 
-![Home](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/home.png)
+## Docs
 
-And this is a single post.
+### Running locally
 
-![Post](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_1.png)
+To test locally, run the following in your terminal:
 
-![Post. More content examples.](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_2.png)
+1. Clone repo locally
+1. `bundle install`
+2. `bundle exec jekyll serve`
+3. Open your browser to `localhost:4000`
 
-## Usage
+### Customizing
 
-Brume can be installed just like any other Jekyll theme as described [here](https://jekyllrb.com/docs/themes/#installing-a-theme),
-but there are a couple of additional steps you have to take.
+First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
 
-1. All the links are defined in a file *_data/links.yml*, therefore you'll have to create a *_data*
-directory and put this file there in order for navigation to be displayed.
-2. Brume uses `home` layout for the home page (like the default Jekyll theme). All you need to do
-is create an *index.html* or *index.md* file with `layout: home`. If you want the home page to be
-listed in the navigation you have to add `title` to it's front matter that matches
-the title you used for the home page link in the *links.yml* file. Titles are used to indicate
-the current page.
+#### Options/configuration
 
-## Theme customization
+Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
 
-This theme has 4 predefined colors that can be used for links:
+[...write these out...]
 
-- azul
-- ruby
-- amber
-- avocado
+#### Editing content
 
-By default it uses *avocado*, but if you want to select another one just change the `color_scheme` setting in
-*_config.yml* file.
+Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
 
-Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!
+### Publishing to GitHub Pages for free
+
+[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
+
+### Configuring with your own domain name
+
+To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
+
+### Themes
+
+Right now resume-template only has one theme. More are coming :soon: though. :heart:
+
+## Roadmap
+
+A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
+
+## Contributing
+
+If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
+
+1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
+2. Fork the project, make changes, and submit a pull request
+
+## License
+
+The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
+
+Disclaimer: Use of Homer J. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.

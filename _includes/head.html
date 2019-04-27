@@ -1,32 +1,18 @@
-<!-- meta information -->
-<meta charset="utf-8">
-<meta name="description" {% if page.title == "Home" %}
-      content="{{ site.description }}" {% else %}
-      content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" {% endif %}>
-<meta name="author" content="{{ site.author }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Enable responsiveness on mobile devices-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-<!-- title -->
-<title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.title }}</title>
+  <!-- Google font typography settings - defined in _config.yml -->
+  {% if site.resume_theme == 'default' %}
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700' rel='stylesheet' type='text/css'>
+  {% endif %}
 
-<!-- icons -->
-<link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-<!-- stylesheets -->
-<link rel="stylesheet" href="{{ '/assets/css/responsive.gs.12col.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/animate.min.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
-<!-- Google fonts -->
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
-
-{% if site.paginate %}
-<!-- font Awesome -->
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-{% endif %}
-
-<!-- feed links -->
-<link rel="alternate" href="{{ 'feed.xml' | absolute_url }}" type="application/rss+xml" title="{{ site.title }}">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="icon" type="image/x-icon" href="/favicon.png" />
+</head>
