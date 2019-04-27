@@ -1,52 +1,26 @@
-<<<<<<< HEAD
-# Site settings
-title: Butane Jekyll Theme
-description: >
-    This is an example of the Butane Jekyll Theme created by Alex Carpenter
-author: Alex Carpenter
-email: youemail@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://alexcarpenter.github.io" # the base hostname & protocol for your site
-twitter_username: hybrid_alex
-github_username:  alexcarpenter
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-# Build settings
-include: [_pages]
-markdown: kramdown
-permalink: /:year/:month/:title
-sass:
-    style: compressed
-=======
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-##
-# RLStevenson Theme Options
-####
-
-# For baseurl:
-# Use '' for / or '/your-dir' for another directory
-
-title:		RLStevenson
-description:	'A Bootstrap based clone of the Hyde theme by mdo.'
-freetext:	'Released under an MIT license - feel free to make pull requests.'
-baseurl:	'/'
-paginate:	3
-version:	0.1.0
-colorscheme:	scheme-gulfracing
-
-ga:		'UA-123-456'
-piwikSiteID:	''
-piwikURL:	''
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
 author:
- url:		https://www.exchangerate-api.com
- name:		'ExchangeRate-API'
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
 
 github:
- repo:		https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme
-
-gems:		[jekyll-paginate]
-
-exclude:	['README.md', 'Gemfile.lock', 'Gemfile', '*.gemspec', '*.gem']
-
-theme: jekyll-theme-slate
->>>>>>> e7cad6d98c2a2ec09c4ee32b86b8fae4acc6ab26
+  repo:           https://github.com/poole/hyde
