@@ -1,59 +1,49 @@
-# Resume template
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+# Vitae
 
-![img](images/screenshot.png)
+[![Build Status](https://secure.travis-ci.org/jekyller/vitae.png?branch=gh-pages)](http://travis-ci.org/jekyller/vitae)
 
-## Docs
+Personal homepage (curriculum vitae or resume) based on [João's](https://github.com/joaomoreno/resume).
+Vitae is built with [skeleton](http://getskeleton.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
+hosted in [Github pages](https://pages.github.com/).
 
-### Running locally
 
-To test locally, run the following in your terminal:
+## View the live demo
 
-1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+[Vitae Live Demo](https://jekyller.github.io/vitae)
 
-### Customizing
 
-First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
+## Screenshots
 
-#### Options/configuration
+![resume page](https://raw.githubusercontent.com/jekyller/vitae/gh-pages/assets/images/vitae_screen.png)
 
-Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
 
-[...write these out...]
+## How to use it
 
-#### Editing content
+Simply clone/fork this repository, and then run `jekyll serve` inside the directory.
+Edit the site attributes in *_config.yml* and edit the various entries in *_includes/*.
 
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
+## Issues and contributing
 
-### Publishing to GitHub Pages for free
+I have tested this install with Ruby v2.4.2p198 (Mac OS RVM) and Jekyll v3.6.2. If you run into any problems please log them on the [issue tracker](https://github.com/jekyller/vitae/issues).
 
-[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
+Feel free pull-request your patches and fixes.
 
-### Configuring with your own domain name
 
-To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
+## Thanks
 
-### Themes
+A lot of the work had been already done by the Joao. Many thanks to him :smile:
 
-Right now resume-template only has one theme. More are coming :soon: though. :heart:
+Profile picture from [pexels](https://www.pexels.com/photo/portrait-black-african-ethnicity-person-9494/).
 
-## Roadmap
 
-A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
+## Copyright & License
 
-## Contributing
+Copyright (C) 2015 - Released under the MIT License.
 
-If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
-2. Fork the project, make changes, and submit a pull request
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## License
-
-The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
-
-Disclaimer: Use of Homer J. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
