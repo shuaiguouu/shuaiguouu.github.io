@@ -1,51 +1,75 @@
-{% include head.html %}
-<main>
-    <span class="statusbar"></span>
-    <!-- Wrap all page content here -->
-    <div id="wrap">
-        <div id="body" class="container">
-            <div class="row row-offcanvas row-offcanvas-left">
-                <!-- side navigation -->
-                <nav id="nav" role="navigation" class="col-sm-2 sidebar-offcanvas">
-                    <header id="menu" role="banner">
-                        <p class="menu-title">Close</p>
-                        <a href="#nav" class="close-btn">
-                            <img src="{{ "/assets/fonts/close-btn.svg" | prepend: site.url }}" alt="close button">
-                        </a>
-                    </header>
-                    {% include sidenav.html %}
-                </nav>
-                <header id="menu" role="banner">
-                    <p class="menu-title">Menu</p>
-                    <a href="#nav" class="menu-btn">
-                        <img src="{{ "/assets/fonts/menu-btn.svg" | prepend: site.url }}" alt="menu button">
-                    </a>
-                </header>
-                <!-- Content -->
-                <div class="col-sm-10">
-                    <nav class="top">
-                        <a href="{{ "/index.html" | prepend: site.url }}">{{ site.description }} &mdash; {{ site.name }}</a>
-                        <span class="pull-right">
-                            <a id="twitter-ic" class="link" href="https://twitter.com/{{site.owner.twitter}}">
-                                <i class="fa fa-twitter fa-lg"></i>
-                            </a>
-                            <a id="git-ic" class="link" href="https://github.com/{{site.owner.github}}">
-                                <i class="fa fa-github-square fa-lg"></i>
-                            </a>
-                            <a id="rss-ic" class="link" href="{{ "/feed.xml" | prepend: site.url }}">
-                                <i class="fa fa-rss fa-lg"></i>
-                            </a>
-                        </span>
-                    </nav>
-                    <div class="row">
-                        {{ content }}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer class="footer text-center meta">
-            Powered by <a class="link" href="https://github.com/thesowah/wangana">Wangana</a> &mdash; Jekyll theme.
-        </footer>
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/"><i class="icon-sun"></i> {{ site.name }}</a></h1>
+    <p>{{ site.description }}</p>
+  </header>
+
+
+
+  <div id="page">
+
+
+
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+        </ul>
+      </nav>
     </div>
-</main>
-{% include footer.html %}
+
+
+
+    <div id="content">
+      {{ content }}
+    </div>
+
+
+
+  </div>
+
+
+
+  <footer id="footer">
+    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a></p>
+  </footer>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
+
+
+
+</body>
+</html>
