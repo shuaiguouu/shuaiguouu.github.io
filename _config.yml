@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: Butane Jekyll Theme
 description: >
@@ -15,3 +16,37 @@ markdown: kramdown
 permalink: /:year/:month/:title
 sass:
     style: compressed
+=======
+
+##
+# RLStevenson Theme Options
+####
+
+# For baseurl:
+# Use '' for / or '/your-dir' for another directory
+
+title:		RLStevenson
+description:	'A Bootstrap based clone of the Hyde theme by mdo.'
+freetext:	'Released under an MIT license - feel free to make pull requests.'
+baseurl:	'/'
+paginate:	3
+version:	0.1.0
+colorscheme:	scheme-gulfracing
+
+ga:		'UA-123-456'
+piwikSiteID:	''
+piwikURL:	''
+
+author:
+ url:		https://www.exchangerate-api.com
+ name:		'ExchangeRate-API'
+
+github:
+ repo:		https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme
+
+gems:		[jekyll-paginate]
+
+exclude:	['README.md', 'Gemfile.lock', 'Gemfile', '*.gemspec', '*.gem']
+
+theme: jekyll-theme-slate
+>>>>>>> e7cad6d98c2a2ec09c4ee32b86b8fae4acc6ab26
