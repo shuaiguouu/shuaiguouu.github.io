@@ -1,5 +1,5 @@
 _site
-Gemfile.lock
+.idea
+.DS_Store
+.jekyll-metadata
 .sass-cache
-*.gem
-*.gemspec
