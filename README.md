@@ -1,71 +1,88 @@
-Freshman21
-==========
-
-Freshman21 is a Jekyll blog theme, base on theme [Freshman](http://github.com/yulijia/freshman). 
-
-A tribute to WordPress Theme Twenty-Twelve and Twenty-eleven.
-
-Enjoy.
+# Naringu
 
 
-![Screen](http://i.imgur.com/oSp7kacl.png)
+Naringu is dark jekyll theme that provide fully furnished jekyll setup, come with contact form, #6DD HTML color schema, and more features. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
-### Version 2.1 update 2016.06.06
+![Naringu](images/screenshot-1.png)
+![Naringu](images/screenshot-2.png)
+![Naringu](images/screenshot-3.png)
+![Naringu](images/screenshot-4.png)
 
-- master branch: the simplest template, original version with
-	* Open Graph META Tags
-	* Microdata(schema.org)
+## Contents
 
-- gh-pages branch: master branch with 
-
-	* [google analytics js template](https://github.com/yulijia/freshman21/blob/gh-pages/_includes/google_analytics.js)
-        * [BackToTop js script](https://github.com/yulijia/freshman21/tree/gh-pages/js)
-        * <q>readmore</q> module
-        * [keyboard shortcuts for pagination](http://yulijia.net/freshman21/news/2016/05/24/new-features.html)
-	* font awesome icon
-	* [Google search](https://github.com/yulijia/freshman21/blob/gh-pages/_includes/google_search.js)
-
-Clone master branch: 
-
-` git clone https://github.com/yulijia/freshman21.git -b master --single-branch`
-
-Clone gh-pages branch: 
-
-`git clone https://github.com/yulijia/freshman21.git -b gh-pages --single-branch`
+- [Usage](#usage)
+ - [Sidebar menu](#sidebar-menu)
+  - [Themes](#themes)
+  - [Reverse layout](#reverse-layout)
+  - [Contact Form](#contact-form)
+  - [Comments](#comments)
+- [Development](#development)
+  - [Author](#author)
+  - [Contributors](#contributors)
+- [License](#license)
 
 
-### A Summary of Features
+## Usage
 
-- Provide single column and two columns layout
-- Powerful configure file
-- Comments by Disqus
-- Support LaTeX (by MathJax)
-- Syntax highlighting
-- Multiple Languages support 
-    * English
-    * Chinese
-    * Japanese (Contributed by [kokeiro001](https://github.com/kokeiro001))
-    * Polish (Contributed by [Derson5](https://github.com/Derson5))
-    * Korean (Contributed by [Clifford Choi](https://github.com/ulgoon))
-    * Russian (Contributed by [Anton Alekseev](https://github.com/alexeyev))
-    * Turkish (Contributed by [Muhammet Kara](https://github.com/mrkara))
-    * Indonesian (Contributed by [Samsul Ma'arif](https://github.com/samsulmaarif))
+Just download and start the Jekyll server or fork this repo.
 
-### How to install this theme?
+### Sidebar menu
+
+Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
 
 ```
-# please make sure you have already installed git tools and ruby tools(gem)
-$ gem install sass
-$ gem install jekyll
-$ git clone https://github.com/yulijia/freshman21.git
-$ mv freshman21/ yourblogname.github.io/
-
+---
+layout: page
+title: About
+---
 ```
 
-### Demo
-
-Single column, please see [my own blog](http://yulijia.net/en/)
-
-Two columns, please see the [theme website](http://yulijia.net/freshman21/)
+**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` 
 
 
+### Reverse layout
+
+Reverse the page orientation with a single class.
+
+```html
+<body class="layout-reverse">
+  ...
+</body>
+```
+### Contact Form
+
+Using formspree to enable contact form in static site.
+
+Go a head `contact/index.html` just change the email in the code
+
+```html
+<form action="http://formspree.io/youremail@yourdomain.com" role="form" method="POST">
+```
+
+### Comments
+
+Using [disqus](http://disqus.com/) to enable comments in static site.
+
+Just edit variable `disqus` in `_config.yml` to your disqus link.
+
+## Development
+
+Naringu come with two branches :.
+
+- `master` for active development. 
+- `gh-pages` for preview of Naringu
+
+### Author
+
+**Rizky Ariestiyansyah**
+- <https://github.com/ariestiyansyah>
+- <https://twitter.com/ariestiyansyah>
+
+### Contributors
+
+**Gildásio Júnior** - *a.k.a. @gjuniioor*
+- https://github.com/gjuniioor
+
+## License
+
+Open sourced under the [MIT license](LICENSE.md).
