@@ -1,18 +1,13 @@
 ---
-layout: default
+layout: layout
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+{% include employment.html %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+{% include education.html %}
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+{% include skills.html %}
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+{% include initiatives.html %}
+
+{% include interests.html %}
