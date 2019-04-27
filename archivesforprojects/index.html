@@ -1,49 +1,21 @@
 ---
 layout: default
-title: Archives
+title: Projects
 ---
 
-{% for post in site.projects %}
+<div id="blog-archivesforprojects">
 
-	<article class="post">
-
-		{% if post.external-url %}
-			<h1>
-				<a href="{{ post.external-url }}">{{ post.title }}</a>
-				<a class="anchor" href="{{ post.url }}"><i class="icon-anchor"></i></a>
-			</h1>
-		{% else %}
-			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-		{% endif %}
-
-		<div class="post-content">{{ post.content }}</div>
-
-	</article>
-
-{% endfor %}
-
-
-
-{% if site.total_pages > 1 %}
-	<div class="postnavigation">
-
-		{% if site.previous_page %}
-			{% if site.page == 2 %}
-				<a class="prev left" href="/">&larr; Newer</a>
+	{% for project in site.projects %}
+		<article class="project">
+			{% if project.external-url %}
+				<h1>
+					<a href="{{ project.external-url }}">{{ project.title }}</a> 
+					<a class="anchor" href="{{ project.url }}"><i class="icon-anchor"></i></a>
+				</h1>
 			{% else %}
-				<a class="prev left" href="/page{{site.previous_page}}/">&larr; Newer</a>
+				<h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
 			{% endif %}
-		{% else %}
-			<span class="nope left">&larr; Newer</span>
-		{% endif %}
+		</article>
+	{% endfor %}
 
-		<span class="pages">Page {{ site.page }} of {{ site.total_pages }}</span>
-
-		{% if site.next_page %}
-			<a class="next right" href="/page{{site.next_page}}/">Older &rarr;</a>
-		{% else %}
-			<span class="nope right">Older &rarr;</span>
-		{% endif %}
-
-	</div>
-{% endif %}
+</div>
