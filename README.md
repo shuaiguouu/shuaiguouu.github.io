@@ -1,50 +1,49 @@
-# Ink
 
-Ink is a minmal two-column theme for [Jekyll](http://jekyllrb.com) 
+# Vitae
 
-![Screenshot](https://s32.postimg.org/gdtp6pw1x/ink.png)
+[![Build Status](https://secure.travis-ci.org/jekyller/vitae.png?branch=gh-pages)](http://travis-ci.org/jekyller/vitae)
 
-# Installation 
-
-##### Setup on your local machine
- * Clone or download the repository
- * You should have [ruby](https://www.ruby-lang.org/en/) installed in your system
- * Install bundler which helps in specifying and installing dependencies of any Ruby project ```gem install bundler```
- * Go to the root of the repo and run this - ```bundle install```
- * Then - ```bundle exec jekyll serve```
-
-##### Make it your own
- * Fork the repository
- * Follow the configuration step
- * Host your site/blog with **Ink**
-
-# Configuration 
- * Change the following in ```_config.yml```
- ```
-    name:               "Ink"
-    description:        "A minimalistic jekyll theme for humans"
-    url:                ""
-    author:             "thinker3197"
-    email:              "jhondoe@abc.com"
-    gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
-    twitter:            "jhondoe"
-    email:              "jhondoe@abc.com"
-    github:             "jhondoe"
-    pinterest:          "jhondoe"
-    linkedin:           "jhondoe"
-    facebook:           "jhondoe"
-    
- ```
- * Set the number of posts that appear in each page by changing the ```paginate``` option in ```_config.yml``` file. Default value is 5.
- * Add more navigation menus in the ```nav``` section in ```_config.yml```. 
- * Add your custom url in ```url``` option. Example : http://thinker3197.github.io/blog. Consult the ```gh-pages``` branch to see the basic setup for a blog.
- * Add your custom background by adding a custom background link in the ```background``` option in ```_config.yml```.
- 
-# Licensce
-
-Open sourced under [MIT LICENSE](https://github.com/thinker3197/ink/blob/master/LICENSE) 
+Personal homepage (curriculum vitae or resume) based on [João's](https://github.com/joaomoreno/resume).
+Vitae is built with [skeleton](http://getskeleton.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
+hosted in [Github pages](https://pages.github.com/).
 
 
+## View the live demo
+
+[Vitae Live Demo](https://jekyller.github.io/vitae)
 
 
+## Screenshots
 
+![resume page](https://raw.githubusercontent.com/jekyller/vitae/gh-pages/assets/images/vitae_screen.png)
+
+
+## How to use it
+
+Simply clone/fork this repository, and then run `jekyll serve` inside the directory.
+Edit the site attributes in *_config.yml* and edit the various entries in *_includes/*.
+
+## Issues and contributing
+
+I have tested this install with Ruby v2.4.2p198 (Mac OS RVM) and Jekyll v3.6.2. If you run into any problems please log them on the [issue tracker](https://github.com/jekyller/vitae/issues).
+
+Feel free pull-request your patches and fixes.
+
+
+## Thanks
+
+A lot of the work had been already done by the Joao. Many thanks to him :smile:
+
+Profile picture from [pexels](https://www.pexels.com/photo/portrait-black-african-ethnicity-person-9494/).
+
+
+## Copyright & License
+
+Copyright (C) 2015 - Released under the MIT License.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

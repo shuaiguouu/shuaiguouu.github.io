@@ -1,9 +1,13 @@
-_site
-.coffeehintrc
-.jshintrc
-img/Thumbs.db
+# OS X
 .DS_Store
-._.DS_Store
-node_modules
-.sass-cache
-.ruby-version
+
+# Jekyll build
+/_site/
+.jekyll-metadata
+Gemfile.lock
+
+# webstorm
+.idea/
+
+# others
+*.swp
