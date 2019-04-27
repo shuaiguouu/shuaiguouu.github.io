@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    {% include head.html %}
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
+
   <body>
-    <main class="container {% if site.color_scheme %}{{ site.color_scheme }}{% else %}avocado{% endif %}">
-      {% if page.title == "Home" %}
-      <header class="fadeInLeft animated">
-      {% else %}
-      <header>
-      {% endif %}
-        <div>
-          <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
-             style="background-image: url({{ '/assets/images/logo.png' | relative_url }});"></a>
-        </div>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-        {% include navigation.html %}
-      </header>
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
 
+          <nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
       {{ content }}
+    </div>
 
-      <footer>
-        <p>
-          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en_US">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-        </p>
-      </footer>
-    </main>
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
 
-    <!-- scripts -->
-    <script src="{{ '/assets/js/fluidvids.min.js' | relative_url }}"></script>
-    <script>
-      fluidvids.init({
-        selector: ['iframe', 'object'],
-        players: ['www.youtube.com', 'player.vimeo.com']
-      });
-    </script>
+    {% include analytics.html %}
   </body>
 </html>
