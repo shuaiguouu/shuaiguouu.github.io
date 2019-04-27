@@ -1,13 +1,16 @@
 # from http://jekyllrb.com/docs/continuous-integration/
+sudo: false
 language: ruby
+cache: bundler
 rvm:
 - 2.4.2
 
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-#install: gem install jekyll rdiscount pygments html-proofer
-install: gem install jekyll #rdiscount pygments html-proofer
-script: jekyll build #&& htmlproof ./_site --disable-external --only-4xx --check-html --check-favicon
+install:
+  # Install Jekyll and dependencies
+  - bundle install
+
+script: jekyll build
+
 # branch whitelist, only for GitHub Pages
 branches:
   only:
