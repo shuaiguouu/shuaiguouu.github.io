@@ -2,9 +2,15 @@
 layout: default
 ---
 
-<article class="single row gutters">
-  <time class="published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_long_string }}</time>
-  <h2>{{ page.title }}</h2>
+{% include header.html %}
 
+<div class="content post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </div>
   {{ content }}
-</article>
+</div>
+{% if site.disqus_shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
