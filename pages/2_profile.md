@@ -7,13 +7,11 @@ permalink: /about_me/
 
 
 <body>
-    <table border="1">
-      <tr>
-        <td width="50%" align="center">
-          <img src="/images/profile.jpg"> 
-        </td>
-        <td width="50%">
-          <h2>Shuai Guo</h2>
+    <div style="float:left">
+        <img src="/images/profile.jpg" >
+    </div>
+    <div style="float:right;">
+        <h2>Shuai Guo</h2>
           <p>Dalian University of Technology</p>
           <p>
             <a href="mailto:{{ site.email }}">
@@ -40,21 +38,6 @@ permalink: /about_me/
                 </span>
             </a>
           </p>
-        </td>
-      </tr>
-    </table>
-</body>
-
-<body>
-    <div style="float:right">
-        <img src="/images/head.jpg" >
-    </div>
-    <div style="float:left;">
-        <h1>Shuai Guo</h1>
-        <p>Dalian University of Technology</p>
-        <p>Master Degree on Computer Science and Technology</p>
-        <p>E-mail：guoshuaiabc@mail.dlut.edu.cn</p>
-        <p>Tel: 18940976593</p>
     </div>
 </body>
 
