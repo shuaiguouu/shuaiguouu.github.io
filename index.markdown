@@ -2,10 +2,10 @@
 layout: frontpage
 ---
 <body>
-    <table border="1" width="500">
+    <table border="1" width="1100">
       <tr>
         <td width="25%">
-          <img src="/images/head.jpg" height="200"> 
+          <img src="/images/head.jpg" height="250"> 
         </td>
         <td width="75%">
           <h1>Shuai Guo</h1>
