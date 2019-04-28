@@ -8,10 +8,12 @@ permalink: /about_me/
 <body>
     <table border="0">
       <tr>
-        <td width="40%" align="center">
+        <td width="40%" align="right">
           <img src="/images/profile.jpg"> 
         </td>
-        <td width="60%" align="center">
+        <td width="10%" align="center">
+        </td>
+        <td width="50%" align="left">
         <h2>Shuai Guo</h2>
           <p>Dalian University of Technology</p>
           <p>
