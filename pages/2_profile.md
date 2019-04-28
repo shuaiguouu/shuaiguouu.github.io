@@ -11,11 +11,12 @@ permalink: /about_me/
         <td width="40%" align="right">
           <img src="/images/profile.jpg"> 
         </td>
-        <td width="10%" align="center">
+        <td width="6%" align="center">
         </td>
-        <td width="50%" align="left">
+        <td width="54%" align="left">
         <h2>Shuai Guo</h2>
           <p>Dalian University of Technology</p>
+          <p>Tel: 18940976593</p>
           <p>
             <a href="mailto:{{ site.email }}">
                 <span class="icon">
