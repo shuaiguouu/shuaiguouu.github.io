@@ -2,12 +2,12 @@
 layout: frontpage
 ---
 
-<table>
+<table border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="35%">
+    <td width="25%">
       <img src="/images/head.jpg" width="100%"> 
     </td>
-    <td width="65%">
+    <td width="75%">
       <h1>Shuai Guo</h1>
       <p>Dalian University of Technology</p>
       <p>Master Degree on Computer Science and Technology</p>
