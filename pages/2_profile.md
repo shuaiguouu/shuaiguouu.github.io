@@ -6,36 +6,18 @@ permalink: /about_me/
 ---
 
 
-<table border="0">
-    <tr>
-        <td width="50%" align="center"> <img src="/images/profile.jpg"> </td>
-        <td> <h2>Shuai Guo</h2> </td>
-        <!-- <td> Male </td> -->
-    </tr>
-    <tr width="25%">
-        <!--<td>2.1</td>-->
-        <td> Blog: <a href="https://blog.csdn.net/qq_30565883">CSDN</a> </td>
-        <td>Github: <a href="https://github.com/ShuaiGuo95">ShuaiGuo95</a> </td>
-    </tr>
-    <tr width="25%">
-        <!--<td>3.1</td>-->
-        <td> <a href="mailto:{{ site.email }}">{{ E-mail }}  </a></td>
-        <td>Tel: 18940976593</td>
-    </tr>
-</table>
-
 <body>
     <table border="0">
       <tr>
-        <td width="20%" align="center">
+        <td width="40%" align="center">
           <img src="/images/profile.jpg"> 
         </td>
-        <td width="80%">
+        <td width="60%">
           <h2>Shuai Guo</h2>
           <p>Dalian University of Technology</p>
           <p>
             <a href="mailto:{{ site.email }}"><span class="glyphicon glyphicon-envelope"></span> 
-            </a>  <span class="point"> · </span> 
+            </a>
             <a href="https://github.com/{{ site.github_username }}">
                 <span class="icon">
                 <svg viewBox="0 0 16 16">
