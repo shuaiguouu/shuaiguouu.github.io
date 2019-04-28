@@ -1,7 +1,7 @@
 ---
 layout: frontpage
 ---
-<body>
+<!-- <body>
     <table border="0">
       <tr>
         <td width="25%">
@@ -16,9 +16,9 @@ layout: frontpage
         </td>
       </tr>
     </table>
-</body>
+</body> -->
 
-<!-- <body>
+<body>
     <div style="float:right">
         <img src="/images/head.jpg" >
     </div>
@@ -29,4 +29,4 @@ layout: frontpage
         <p>E-mail：guoshuaiabc@mail.dlut.edu.cn</p>
         <p>Tel: 18940976593</b></p>
     </div>
-</body> -->
+</body>
