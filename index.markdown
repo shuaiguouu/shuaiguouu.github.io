@@ -4,7 +4,7 @@ layout: frontpage
 <body>
     <table border="0">
       <tr>
-        <td width="20%">
+        <td width="20%" align="center">
           <img src="/images/head.jpg"> 
         </td>
         <td width="80%">
