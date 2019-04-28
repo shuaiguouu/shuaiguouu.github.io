@@ -18,9 +18,9 @@ pre code{
 	font-size: 14px;
 }
 
-table{
-/*	border-top:2px solid #777;
-	border-bottom: 2px solid #777;*/
+/*table{
+	border-top:2px solid #777;
+	border-bottom: 2px solid #777;
 	margin: 8px 0;
 }
 table thead{
@@ -37,7 +37,7 @@ table tr:nth-child(2n){
 table td{
 	padding: 2px 10px;
 	vertical-align: top;
-}
+}*/
 
 
 #index a:link {color: #005}		/* 未访问的链接 */
