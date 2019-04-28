@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 comments: true
-permalink: /About_Me/
+permalink: /about_me/
 ---
 
 <img src="/images/profile.jpg" class="right" />
