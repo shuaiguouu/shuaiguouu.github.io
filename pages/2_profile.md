@@ -5,6 +5,27 @@ comments: true
 permalink: /about_me/
 ---
 
+
+<table border="0">
+    <tr>
+        <td width="50%" align="center"> <img src="/images/head.jpg"> </td>
+        <td> <h2>Shuai Guo</h2> </td>
+        <td> Male </td>
+    </tr>
+    <tr width="25%">
+        <!--<td>2.1</td>-->
+        <td> Blog: <a href="https://blog.csdn.net/qq_30565883">CSDN</a> </td>
+        <td>Github: <a href="https://github.com/ShuaiGuo95">ShuaiGuo95</a> </td>
+    </tr>
+    <tr width="25%">
+        <!--<td>3.1</td>-->
+        <td>E-mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a></td>
+        <td>Tel: 18940976593</td>
+    </tr>
+</table>
+
+
+
 <img src="/images/profile.jpg" class="right" />
 
 * content
