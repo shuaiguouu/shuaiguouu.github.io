@@ -2,7 +2,7 @@
 layout: frontpage
 ---
 
-<table width=700 cellspacing="0" border=0 cellpadding=0>
+<table style="border-width:0px;" width=1000>
   <tr>
     <td width="35%">
       <img src="/images/head.jpg" width="100%"> 
