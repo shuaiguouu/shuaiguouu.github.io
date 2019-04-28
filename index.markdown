@@ -13,7 +13,6 @@ layout: frontpage
       <p>Master Degree on Computer Science and Technology</p>
       <p>E-mail：guoshuaiabc@mail.dlut.edu.cn</p>
       <p>Tel: 18940976593</p>
-      <p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
     </td>
   </tr>
 </table>
