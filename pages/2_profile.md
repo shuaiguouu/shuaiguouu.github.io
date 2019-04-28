@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Profile
 comments: true
 permalink: /about/
 ---
