@@ -2,10 +2,10 @@
 layout: frontpage
 ---
 
-<table border="0" width="1000">
+<table border="0">
   <tr>
     <td width="25%">
-      <img src="/images/head.jpg" height="200"> 
+      <img src="/images/head.jpg" width="100%"> 
     </td>
     <td width="75%">
       <h1>Shuai Guo</h1>
@@ -13,6 +13,7 @@ layout: frontpage
       <p>Master Degree on Computer Science and Technology</p>
       <p>E-mail：guoshuaiabc@mail.dlut.edu.cn</p>
       <p>Tel: 18940976593</p>
+      <p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
     </td>
   </tr>
 </table>
