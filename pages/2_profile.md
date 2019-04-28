@@ -7,16 +7,21 @@ permalink: /about_me/
 
 
 <body>
-    <table border="0">
+    <table border="1">
       <tr>
-        <td width="40%" align="center">
+        <td width="50%" align="center">
           <img src="/images/profile.jpg"> 
         </td>
-        <td width="60%">
+        <td width="50%">
           <h2>Shuai Guo</h2>
           <p>Dalian University of Technology</p>
           <p>
-            <a href="mailto:{{ site.email }}"><span class="glyphicon glyphicon-envelope"></span> 
+            <a href="mailto:{{ site.email }}">
+                <span class="icon">
+                <svg viewBox="0 0 1024 1024">
+                <path fill="#808080" d="M979.2 192H44.8L512 659.2zM1024 851.2V236.8l-307.2 307.2z" fill="#808080" p-id="4539"></path><path d="M44.8 896h934.4l-307.2-307.2L512 748.8 352 588.8zM307.2 544L0 236.8v614.4z"/>
+                </svg>
+                </span> 
             </a>
             <a href="https://github.com/{{ site.github_username }}">
                 <span class="icon">
