@@ -4,10 +4,10 @@ layout: frontpage
 <body>
     <table border="0">
       <tr>
-        <td width="20%">
+        <td width="23%" align="center">
           <img src="/images/head.jpg"> 
         </td>
-        <td width="80%">
+        <td width="77%">
           <h1>Shuai Guo</h1>
           <p>Dalian University of Technology</p>
           <p><span class="glyphicon glyphicon-envelope"></span> {{ site.email }} &nbsp <span class="glyphicon glyphicon-phone"></span> {{ 18940976593 }}</p>
