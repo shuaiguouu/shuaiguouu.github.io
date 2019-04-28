@@ -10,7 +10,7 @@ permalink: /about_me/
     <div style="float:left">
         <img src="/images/profile.jpg" >
     </div>
-    <div">
+    <div>
         <h2>Shuai Guo</h2>
           <p>Dalian University of Technology</p>
           <p>
