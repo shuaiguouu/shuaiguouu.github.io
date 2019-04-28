@@ -5,12 +5,13 @@ comments: true
 permalink: /about_me/
 ---
 
-
 <body>
-    <div style="float:left">
-        <img src="/images/profile.jpg" >
-    </div>
-    <div>
+    <table border="0">
+      <tr>
+        <td width="50%" align="center">
+          <img src="/images/profile.jpg"> 
+        </td>
+        <td width="50%">
         <h2>Shuai Guo</h2>
           <p>Dalian University of Technology</p>
           <p>
@@ -38,8 +39,11 @@ permalink: /about_me/
                 </span>
             </a>
           </p>
-    </div>
+        </td>
+      </tr>
+    </table>
 </body>
+
 
 * content
 {:toc}
