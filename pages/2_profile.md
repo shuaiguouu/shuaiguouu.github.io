@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Profile
+title: About Me
 comments: true
-permalink: /profile/
+permalink: /About_Me/
 ---
 
 <img src="/images/profile.jpg" class="right" />

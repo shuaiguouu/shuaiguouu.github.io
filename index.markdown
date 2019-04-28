@@ -10,9 +10,10 @@ layout: frontpage
         <td width="75%">
           <h1>Shuai Guo</h1>
           <p>Dalian University of Technology</p>
-          <p>Master Degree on Computer Science and Technology</p>
-          <p>E-mail：guoshuaiabc@mail.dlut.edu.cn</p>
-          <p>Tel: 18940976593</p>
+          <p>E-mail：<span class="glyphicon glyphicon-envelope"></span> {{ site.email }}</p>
+          <p>M.S. degree studying on Computer Science and Technology</p>
+          <p>I'll graduate on July, 2020, I really wish to pursue a doctoral degree under your supervision. </p>
+<!--           <p>Tel: 18940976593</p> -->
         </td>
       </tr>
     </table>
