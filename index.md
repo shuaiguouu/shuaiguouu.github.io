@@ -2,7 +2,8 @@
 layout: frontpage
 ---
 
-## Welcome to my website
+## Shuai Guo
 
-This is the place where I share my ideas on topics like [Paracraft](http://www.paracraft.cn) software design, artificial intelligence and education. 
-Feel free to send me emails or join our team. 
+Dalian University of Technology
+E-mail: guoshuaiabc@mail.dlut.edu.cn
+Tel: 18940976593
