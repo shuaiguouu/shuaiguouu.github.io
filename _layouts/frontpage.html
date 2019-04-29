@@ -22,11 +22,9 @@ layout: default
           {% for post in site.posts %}
             <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
               <h2>
-              {{ post.journal }}
+              {{ post.title }}
               </h2>
-              <p style="font-size: 10">{{ post.title }}</p>
-              <p style="font-size: 10">{{ post.writers }}</p>
-              <p style="font-size: 10">{{ post.journal }}</p>
+              <p style="color:2c2c2c;font-size: 10">{{ post.writers }}</p>
               <!-- <span class="">{{ post.date | date: "%b %-d, %Y" }}</span> -->
             </a>
           {% endfor %}
@@ -39,11 +37,9 @@ layout: default
                 {% if post.url %}
                   <a href="{{ post.url }}" class="post-list-item">
                     <h2>
-                    {{ post.journal }}
+                    {{ post.title }}
                     </h2>
-                    <p style="font-size: 10">{{ post.title }}</p>
-                    <p style="font-size: 10">{{ post.writers }}</p>
-                    <p style="font-size: 10">{{ post.journal }}</p>
+                    <p style="color:2c2c2c;font-size: 10">{{ post.writers }}</p>
                     <!-- <span class="">{{ post.date | date: "%b %-d, %Y" }}</span> -->
                   </a>
                 {% endif %}
