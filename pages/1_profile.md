@@ -78,6 +78,7 @@ Create your own website is as easy as clone or fork a [template](https://github.
     {% endif %}
   {% endfor %}
 {% endfor %}
+</div>
 
 ### Projects
 <div post-cate="{{category | first}}">
