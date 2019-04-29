@@ -123,6 +123,7 @@ nav{
 	-o-transition:0.4s ease;
 }
 .categories-list-item:last-of-type{
+	color: #2c2c2c;
 	border-bottom:none; 
 }
 .categories-list-item:hover{

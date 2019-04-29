@@ -65,7 +65,7 @@ Create your own website is as easy as clone or fork a [template](https://github.
 
 ### Papers
 <div post-cate="{{category | first}}">
-    {% for posts in papers  %}
+    {% for posts in {{"papers"}}  %}
       {% for post in posts %}
         {% if post.url %}
           <a href="{{ post.url }}" class="post-list-item">
@@ -82,7 +82,7 @@ Create your own website is as easy as clone or fork a [template](https://github.
 
 ### Projects
 <div post-cate="{{category | first}}">
-    {% for posts in projects  %}
+    {% for posts in {"projects"}  %}
       {% for post in posts %}
         {% if post.url %}
           <a href="{{ post.url }}" class="post-list-item">
