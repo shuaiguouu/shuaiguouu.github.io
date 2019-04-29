@@ -36,11 +36,10 @@ layout: default
                 {% if post.url %}
                   <a href="{{ post.url }}" class="post-list-item">
                     <h2>
-                    {{ post.title }}
+                    {{ post.date }}
                     </h2>
-                    <p style="font-size: 10">{{ post.title }}</p>
-                    <p style="font-size: 10">{{ post.writers }}</p>
-                    <p style="font-size: 10">{{ post.journal }}</p>
+                    {{ post.writers }}
+                    {{ post.journal }}
                     <!-- <span class="">{{ post.date | date: "%b %-d, %Y" }}</span> -->
                   </a>
                 {% endif %}
