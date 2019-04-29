@@ -64,42 +64,38 @@ This is a personal website of LiXizhi, created with github and jekyll.
 Create your own website is as easy as clone or fork a [template](https://github.com/LiXizhi/lixizhi.github.io) on github, and [commit](http://jekyllrb.com/docs/posts/) to `_posts` folder. 
 
 ### Papers
-{% for category in site.categories %}
-  <div post-cate="{{category | first}}">
-    {% for posts in category[1]  %}
-      {% for post in posts %}
-        {% if post.url %}
-          <a href="{{ post.url }}" class="post-list-item">
-            <h2>
-            {{ post.title }}
-            </h2>
-            <p style="color:#2c2c2c;font-size: 10">{{ post.subtitle }}</p>
-            <!-- <span class="">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-          </a>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-  </div>
+<div post-cate="{{category | first}}">
+{% for posts in site.categories.papers  %}
+  {% for post in posts %}
+    {% if post.url %}
+      <a href="{{ post.url }}" class="post-list-item">
+        <h2>
+        {{ post.title }}
+        </h2>
+        <p style="color:#2c2c2c;font-size: 10">{{ post.subtitle }}</p>
+        <!-- <span class="">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+      </a>
+    {% endif %}
+  {% endfor %}
 {% endfor %}
 
 ### Projects
-{% for category in site.categories %}
-  <div post-cate="{{category | first}}">
-    {% for posts in category.projects  %}
-      {% for post in posts %}
-        {% if post.url %}
-          <a href="{{ post.url }}" class="post-list-item">
-            <h2>
-            {{ post.title }}
-            </h2>
-            <p style="color:#2c2c2c;font-size: 10">{{ post.subtitle }}</p>
-            <!-- <span class="">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-          </a>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-  </div>
+<div post-cate="{{category | first}}">
+{% for posts in site.categories.projects  %}
+  {% for post in posts %}
+    {% if post.url %}
+      <a href="{{ post.url }}" class="post-list-item">
+        <h2>
+        {{ post.title }}
+        </h2>
+        <p style="color:#2c2c2c;font-size: 10">{{ post.subtitle }}</p>
+        <!-- <span class="">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+      </a>
+    {% endif %}
+  {% endfor %}
 {% endfor %}
+</div>
+
 
 ### Admin tools
 * site [configuration file](https://github.com/LiXizhi/lixizhi.github.io/blob/master/_config.yml)
