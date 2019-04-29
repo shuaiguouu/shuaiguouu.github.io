@@ -74,7 +74,7 @@ nav{
 .post-list-header{
 	padding: 15px 30px;
 	border-bottom: 1px solid #c0c0c0;
-	font-size: 15px;
+	font-size: 30px;
 	font-weight: bold;
 }
 .post-list-item{
@@ -91,8 +91,8 @@ nav{
 	border-bottom: none;
 }
 .post-list-item h2{
-	color: #515151;
-	font-size: 10px;
+	color: #2c2c2c;
+	font-size: 20px;
 	margin: 8px 0 8px 0;
 	padding: 0;
 }
@@ -112,6 +112,7 @@ nav{
 	font-weight: bold;
 }
 .categories-list-item{
+	color: #2c2c2c;
 	display: block;
 	padding:8px 15px; 
 	border-bottom:1px solid #ddd; 
