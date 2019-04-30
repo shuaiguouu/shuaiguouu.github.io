@@ -85,7 +85,7 @@ permalink: /about_me/
 <body>
     <table border="0">
         <tr>
-            <td width="35%" align="left">
+            <td width="45%" align="left">
                 MSc, Dalian University of Technology
             </td>
             <td width="5%" align="center">
@@ -97,12 +97,12 @@ permalink: /about_me/
             <td width="5%" align="center">
                 <a>　</a>
             </td>
-            <td width="20%" align="left">
+            <td width="10%" align="left">
                 2017.09-Present
             </td>
         </tr>
         <tr>
-            <td width="35%" align="left">
+            <td width="45%" align="left">
                 BEng, Dalian University of Technology
             </td>
             <td width="5%" align="center">
@@ -114,7 +114,7 @@ permalink: /about_me/
             <td width="5%" align="center">
                 <a>　</a>
             </td>
-            <td width="20%" align="left">
+            <td width="10%" align="left">
                 2013.09-2017.06
             </td>
         </tr>
