@@ -120,7 +120,7 @@ permalink: /about_me/
 </body>
 
 ## Papers
-* [Link]({{ site.baseurl }}{% link _posts/Papers/2019-4-29-MvLLS.md %})
+* [Link]{{ site.baseurl }}{% post_url 2019-4-29-MvLLS %}
 
 
 ### About comments
