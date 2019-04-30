@@ -20,7 +20,13 @@ permalink: /about_me/
           <p>Tel: 18940976593</p>
           <table border="0">
             <tr>
-            <td width="19%" align="left">
+            <td width="16%" align="left">
+                Links: 
+            </td>
+            <td width="4%" align="center">
+                <a>　</a>
+            </td>
+            <td width="16%" align="left">
             <a href="mailto:{{ site.email }}">
                 <span class="icon">
                 <svg viewBox="0 0 1493 1024">
@@ -29,10 +35,10 @@ permalink: /about_me/
                 </span> 
             </a>
             </td>
-            <td width="8%" align="center">
+            <td width="4%" align="center">
                 <a>　</a>
             </td>
-            <td width="19%" align="left">
+            <td width="16%" align="left">
             <a href="https://github.com/{{ site.github_username }}">
                 <span class="icon">
                 <svg viewBox="0 0 16 16">
@@ -42,10 +48,10 @@ permalink: /about_me/
                 <!-- <span>{{ site.github_username }}</span> -->
             </a>
             </td>
-            <td width="8%" align="center">
+            <td width="4%" align="center">
                 <a>　</a>
             </td>
-            <td width="19%" align="left">
+            <td width="16%" align="left">
             <a href="https://blog.csdn.net/qq_30565883">
                 <span class="icon">
                 <svg viewBox="0 0 1024 1024">
@@ -55,10 +61,10 @@ permalink: /about_me/
                 </span>
             </a>
             </td>
-            <td width="8%" align="center">
+            <td width="4%" align="center">
                 <a>　</a>
             </td>
-            <td width="19%" align="left">
+            <td width="16%" align="left">
             <a href="https://s2.ax1x.com/2019/04/30/EGgqoT.png">
                 <span class="icon">
                 <svg viewBox="0 0 1024 1024">
