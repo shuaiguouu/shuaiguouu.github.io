@@ -18,7 +18,7 @@ permalink: /about_me/
           <p>Dalian University of Technology</p>
           <p>E-mail: guoshuaiabc@mail.dlut.edu.cn</p>
           <p>Tel: 18940976593</p>
-          <p>
+          <div>
             <a href="mailto:{{ site.email }}">
                 <span class="icon">
                 <svg viewBox="0 0 1493 1024">
@@ -49,7 +49,7 @@ permalink: /about_me/
                 </svg>
                 </span>
             </a>
-          </p>
+        </div>>
         </td>
       </tr>
     </table>
