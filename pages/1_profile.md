@@ -121,8 +121,8 @@ permalink: /about_me/
 
 ## Papers
 <hr>
-* [Shuai Guo, Lin Feng, Zhan-Bo Feng et. al. Multi-view Laplacian Least Squares For Human Emotion Recognition. Neurocomputing, 2019.05. Under review now]({% link _posts/Papers/2019-4-29-MvLLS.md %})
-* [Sheng-Lan Liu, Shuai Guo, et. al. Multi-view Laplacian Eigenmaps Based on Bag-of-Neighbors For RGB-D Human Emotion Recognition. Information Science, 2018.11. Under review now]({% link _posts/Papers/2018-11-27-MvLE.md %})
+* [Shuai Guo, Lin Feng, Zhan-Bo Feng et. al. Multi-view Laplacian Least Squares For Human Emotion Recognition. Neurocomputing, 2019.05. Under review now]({% link /_posts/Papers/2019-4-29-MvLLS.md %})
+* [Sheng-Lan Liu, Shuai Guo, et. al. Multi-view Laplacian Eigenmaps Based on Bag-of-Neighbors For RGB-D Human Emotion Recognition. Information Science, 2018.11. Under review now]({% link /_posts/Papers/2018-11-27-MvLE.md %})
 
 
 ### About comments
