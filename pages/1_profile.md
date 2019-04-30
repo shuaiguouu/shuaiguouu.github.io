@@ -85,16 +85,16 @@ permalink: /about_me/
 <body>
     <table border="0">
         <tr>
-            <td width="30%" align="left">
+            <td width="35%" align="left">
                 MSc, Dalian University of Technology
             </td>
-            <td width="10%" align="center">
+            <td width="5%" align="center">
                 <a>　</a>
             </td>
-            <td width="30%" align="left">
+            <td width="35%" align="left">
                 Computer Application Technology (Postgraduate Recommended)
             </td>
-            <td width="10%" align="center">
+            <td width="5%" align="center">
                 <a>　</a>
             </td>
             <td width="20%" align="left">
@@ -102,16 +102,16 @@ permalink: /about_me/
             </td>
         </tr>
         <tr>
-            <td width="30%" align="left">
+            <td width="35%" align="left">
                 BEng, Dalian University of Technology
             </td>
-            <td width="10%" align="center">
+            <td width="5%" align="center">
                 <a>　</a>
             </td>
-            <td width="30%" align="left">
+            <td width="35%" align="left">
                 Computer Science And Technology
             </td>
-            <td width="10%" align="center">
+            <td width="5%" align="center">
                 <a>　</a>
             </td>
             <td width="20%" align="left">
