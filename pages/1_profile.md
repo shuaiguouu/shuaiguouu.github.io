@@ -81,49 +81,51 @@ permalink: /about_me/
 <hr>
 
 ## Education
-<body>
-    <table border="0">
-        <tr>
-            <td width="37%" align="left">
-                MSc, Dalian University of Technology
-            </td>
-            <td width="5%" align="center">
-                <a>　</a>
-            </td>
-            <td width="35%" align="left">
-                Computer Application Technology (Postgraduate Recommended)
-            </td>
-            <td width="5%" align="center">
-                <a>　</a>
-            </td>
-            <td width="18%" align="left">
-                2017.09-Present
-            </td>
-        </tr>
-        <tr>
-            <td width="37%" align="left">
-                BEng, Dalian University of Technology
-            </td>
-            <td width="5%" align="center">
-                <a>　</a>
-            </td>
-            <td width="35%" align="left">
-                Computer Science And Technology
-            </td>
-            <td width="5%" align="center">
-                <a>　</a>
-            </td>
-            <td width="18%" align="left">
-                2013.09-2017.06
-            </td>
-        </tr>
-    </table>
-</body>
+<table border="0">
+    <tr>
+        <td width="37%" align="left">
+            <li>MSc, Dalian University of Technology</li>
+        </td>
+        <td width="5%" align="center">
+            <a>　</a>
+        </td>
+        <td width="35%" align="left">
+            Computer Application Technology  
+            Supervised by <a href="http://faculty.dlut.edu.cn/1995011005/en/index.htm">Lin Feng</a>
+            (Postgraduate Recommended)
+        </td>
+        <td width="5%" align="center">
+            <a>　</a>
+        </td>
+        <td width="18%" align="left">
+            2017.09-Present
+        </td>
+    </tr>
+    <tr>
+        <td width="37%" align="left">
+            <li>BEng, Dalian University of Technology</li>
+        </td>
+        <td width="5%" align="center">
+            <a>　</a>
+        </td>
+        <td width="35%" align="left">
+            Computer Science And Technology
+        </td>
+        <td width="5%" align="center">
+            <a>　</a>
+        </td>
+        <td width="18%" align="left">
+            2013.09-2017.06
+        </td>
+    </tr>
+</table>
+
+
 
 <hr>
 ## Papers
 * Shuai Guo, Lin Feng, Zhan-Bo Feng et. al. [Multi-view Laplacian Least Squares For Human Emotion Recognition.]({{ site.baseurl }}{% post_url /Papers/2019-4-29-MvLLS %}) Neurocomputing, 2019.05. Under review now
-* Sheng-Lan Liu, Shuai Guo, et. al. [Multi-view Laplacian Eigenmaps Based on Bag-of-Neighbors For RGB-D Human Emotion Recognition.]({{ site.baseurl }}{% post_url /Papers/2018-11-27-MvLE %}) Information Science, 2018.11. Under review now
+* Sheng-Lan Liu, Shuai Guo, Hong Qiao et. al. [Multi-view Laplacian Eigenmaps Based on Bag-of-Neighbors For RGB-D Human Emotion Recognition.]({{ site.baseurl }}{% post_url /Papers/2018-11-27-MvLE %}) Information Science, 2018.11. Under review now
 
 
 ### About comments
