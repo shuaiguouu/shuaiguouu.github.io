@@ -3,7 +3,6 @@ layout: page
 title: About Me
 comments: true
 permalink: /about_me/
-icon: heart
 ---
 <!-- 照片和基本信息 -->
 <body>
