@@ -18,7 +18,7 @@ permalink: /about_me/
           <p>Dalian University of Technology</p>
           <p>E-mail: guoshuaiabc@mail.dlut.edu.cn</p>
           <p>Tel: 18940976593</p>
-          <table border="1">
+          <table border="0">
             <tr>
             <td width="19%" align="left">
             <a href="mailto:{{ site.email }}">
@@ -30,6 +30,7 @@ permalink: /about_me/
             </a>
             </td>
             <td width="8%" align="center">
+                <a> </a>
             </td>
             <td width="19%" align="left">
             <a href="https://github.com/{{ site.github_username }}">
@@ -42,6 +43,7 @@ permalink: /about_me/
             </a>
             </td>
             <td width="8%" align="center">
+                <a> </a>
             </td>
             <td width="19%" align="left">
             <a href="https://blog.csdn.net/qq_30565883">
@@ -54,6 +56,7 @@ permalink: /about_me/
             </a>
             </td>
             <td width="8%" align="center">
+                <a> </a>
             </td>
             <td width="19%" align="left">
             <a href="https://s2.ax1x.com/2019/04/29/E3uKS0.png">
