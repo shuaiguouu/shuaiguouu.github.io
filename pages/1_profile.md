@@ -30,7 +30,6 @@ permalink: /about_me/
             </a>
             </td>
             <td width="8%" align="center">
-                a
             </td>
             <td width="19%" align="left">
             <a href="https://github.com/{{ site.github_username }}">
@@ -43,7 +42,6 @@ permalink: /about_me/
             </a>
             </td>
             <td width="8%" align="center">
-                a
             </td>
             <td width="19%" align="left">
             <a href="https://blog.csdn.net/qq_30565883">
@@ -56,7 +54,6 @@ permalink: /about_me/
             </a>
             </td>
             <td width="8%" align="center">
-                a
             </td>
             <td width="19%" align="left">
             <a href="https://s2.ax1x.com/2019/04/29/E3uKS0.png">
