@@ -132,7 +132,7 @@ permalink: /about_me/
 * Hui-Bing Wang, Shuai Guo, You-Chen Du. [Credit default probability prediction for Dalian FuRuiZe.]({{ site.baseurl }}{% post_url /Projects/2015-02-10-FRZ %}) Finished on 2018.04. 
 
 <hr>
-## Projects
+## About comments
 Add a variable called `comments` to the [YAML front matter](http://jekyllrb.com/docs/frontmatter/) and set its value to true. A sample might look like:
 
     ---
