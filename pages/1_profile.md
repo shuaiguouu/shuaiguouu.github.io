@@ -79,7 +79,6 @@ permalink: /about_me/
 {:toc}
 
 <hr>
-
 ## Education
 <table border="0">
     <tr>
@@ -137,12 +136,12 @@ permalink: /about_me/
 
 <hr>
 ## Computer Skills
-* Proficient programming skills in C/C++, Python, MATLAB and LATEX. 
-* Familiar with HTML, CSS, Java and C#. 
+* Skilled with: C/C++, Python, MATLAB, LATEX. 
+* Familiar with: HTML, CSS, Java, C#. 
 
 <hr>
 ## Language Skills
-* CET6, CET4, and I'm preparing for IETS recently. 
+* English: CET6, CET4, preparing for IETS recently. 
 
 <hr>
 ## Honors and Awards
