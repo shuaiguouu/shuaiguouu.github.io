@@ -17,28 +17,22 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
 
-        <li>
-            {% if page.url == '/' %}
-            <a class="active" href="{{site.baseurl}}/">
-                {% else %}
-            <a href="{{site.baseurl}}/">
-            {% endif %}
-                <i class="fa fa-home"></i>Home
-            </a>
-        </li>
+        {% if page.url == "/index.html" %}
+          <li class="active">
+          {% else %}
+          <li>
+        {% endif %}
+        <a href="{{ site.baseurl }}/">Home</a></li>
 
-        {% for my_page in site.pages %}
-            {% if my_page.type == 'page' %}
-            <li>
-                {% if my_page.url == page.url %}
-                <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">
-                    {% else %}
-                <a href="{{ my_page.url | prepend: site.baseurl }}">
-                {% endif %}
-                    <i class="fa fa-{{my_page.icon}}"></i>{{ my_page.title }}
-                </a>
-            </li>
+        {% for p in site.pages %}
+          {% if p.title %}
+            {% if p.url == page.url %}
+              <li class="active">
+              {% else %}
+              <li>
             {% endif %}
+            <a href="{{ p.url | prepend: site.baseurl }}"><span class="glyphicon {{ p.icon }}" style="color:blue"></span> {{ p.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div><!-- /.navbar-collapse -->
