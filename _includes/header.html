@@ -1,5 +1,4 @@
 <header>
-
 <!-- navbar -->
   <nav class="navbar navbar-inverse">
   <div class="container">
@@ -23,7 +22,10 @@
           {% else %}
           <li>
         {% endif %}
-        <a href="{{ site.baseurl }}/">Home</a></li>
+        <a href="{{ site.baseurl }}/">
+          <i class="fa fa-home"></i>Home
+        </a>
+          </li>
 
         {% for p in site.pages %}
           {% if p.title %}
