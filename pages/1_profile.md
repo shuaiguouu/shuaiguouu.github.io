@@ -85,15 +85,15 @@ permalink: /about_me/
         <td width="40%" align="left">
             <li>MSc, Dalian University of Technology</li>
         </td>
-        <td width="3%" align="center">
+        <td width="4%" align="center">
             <a>　</a>
         </td>
-        <td width="36%" align="left">
+        <td width="34%" align="left">
             Computer Application Technology  
             Supervised by <a href="http://faculty.dlut.edu.cn/1995011005/en/index.htm">Lin Feng</a>
             (Postgraduate Recommended)
         </td>
-        <td width="3%" align="center">
+        <td width="4%" align="center">
             <a>　</a>
         </td>
         <td width="18%" align="left">
@@ -104,13 +104,13 @@ permalink: /about_me/
         <td width="40%" align="left">
             <li>BEng, Dalian University of Technology</li>
         </td>
-        <td width="3%" align="center">
+        <td width="4%" align="center">
             <a>　</a>
         </td>
-        <td width="36%" align="left">
+        <td width="34%" align="left">
             Computer Science And Technology
         </td>
-        <td width="3%" align="center">
+        <td width="4%" align="center">
             <a>　</a>
         </td>
         <td width="18%" align="left">

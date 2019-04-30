@@ -18,6 +18,14 @@ pre code{
 	font-size: 14px;
 }
 
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
 /*table{
 	border-top:2px solid #777;
 	border-bottom: 2px solid #777;
