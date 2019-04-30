@@ -4,7 +4,7 @@ title: About Me
 comments: true
 permalink: /about_me/
 ---
-
+<!-- 照片和基本信息 -->
 <body>
     <table border="0">
       <tr>
@@ -120,6 +120,9 @@ permalink: /about_me/
     </tr>
 </table>
 
+<hr>
+## Research Interests
+* 
 
 <hr>
 ## Publications
@@ -129,36 +132,18 @@ permalink: /about_me/
 <hr>
 ## Projects
 * Shuai Guo, Yang Wang, Bin Wang. [Kinect2.0 RGB-D human video-emotion dataset acquisition and processing.]({{ site.baseurl }}{% post_url /Projects/2018-07-18-Kinect %}) Finished on 2018.07. 
-* Hui-Bing Wang, Shuai Guo, You-Chen Du. [Credit default probability prediction for Dalian FuRuiZe.]({{ site.baseurl }}{% post_url /Projects/2018-04-14-FRZ %}) Finished on 2018.04. 
+* Hui-Bing Wang, Shuai Guo, Guo-Chao Liu. [Credit default probability prediction for Dalian FuRuiZe.]({{ site.baseurl }}{% post_url /Projects/2018-04-14-FRZ %}) Finished on 2018.04. 
+* You-Chen Du, Xiang Liu, Shuai Guo, Yang Wang. [Website for site reservation and project approval management.](https://github.com/Time1ess/SRPA) (Python+Django+MySQL) Finished on 2017.10. 
 
 <hr>
-## About comments
-Add a variable called `comments` to the [YAML front matter](http://jekyllrb.com/docs/frontmatter/) and set its value to true. A sample might look like:
+## Computer Skills
+* Proficient programming skills in C/C++, Python, MATLAB and LATEX. 
+* Familiar with HTML, CSS, Java and C#. 
 
-    ---
-    layout: post
-    comments: true
-    # other options
-    ---
+<hr>
+## Language Skills
+* CET6, CET4, and I'm preparing for IETS recently. 
 
-### Sample markdowns
-Click view source at the bottom of the page
-
-* Embedding code
-{% highlight lua %}
-local function main()
-	print("hello world everyone")
-end
-{% endhighlight %}
-
-
-## About me
-
-My primary research interest is in artificial intelligence, programming and education. See my project page for details.
-
-
-### 2005 Old Website 
-Here is my old personal website when I was in University. It was mostly on my projects and thoughts before 2005.
-
-* [Xizhi's old website before 2005](/oldsite2005/index.htm). 
+<hr>
+## Honors and Awards
 
