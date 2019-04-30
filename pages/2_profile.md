@@ -82,10 +82,13 @@ permalink: /about_me/
 ## Education
 <table border="0">
     <tr>
+        <td width="2%" align="center">
+            <a>　</a>
+        </td>
         <td width="40%" align="left">
             <li>MSc, Dalian University of Technology</li>
         </td>
-        <td width="2%" align="center">
+        <td width="1%" align="center">
             <a>　</a>
         </td>
         <td width="38%" align="middle">
@@ -93,7 +96,7 @@ permalink: /about_me/
             Supervised by <a href="http://faculty.dlut.edu.cn/1995011005/en/index.htm">Lin Feng</a>
             (Recommended)
         </td>
-        <td width="2%" align="center">
+        <td width="1%" align="center">
             <a>　</a>
         </td>
         <td width="18%" align="left">
@@ -101,16 +104,19 @@ permalink: /about_me/
         </td>
     </tr>
     <tr>
+        <td width="2%" align="center">
+            <a>　</a>
+        </td>
         <td width="40%" align="left">
             <li>BEng, Dalian University of Technology</li>
         </td>
-        <td width="2%" align="center">
+        <td width="1%" align="center">
             <a>　</a>
         </td>
         <td width="38%" align="middle">
             Computer Science And Technology
         </td>
-        <td width="2%" align="center">
+        <td width="1%" align="center">
             <a>　</a>
         </td>
         <td width="18%" align="left">
@@ -138,13 +144,13 @@ permalink: /about_me/
 ## Skills
 <table border="0">
     <tr>
-        <td width="2%" align="center">
+        <td width="1%" align="center">
             <a>　</a>
         </td>
         <td width="44%" align="left">
             <h3>Computer Skills</h3>
         </td>
-        <td width="10%" align="center">
+        <td width="9%" align="center">
             <a>　</a>
         </td>
         <td width="44%" align="left">
@@ -152,13 +158,13 @@ permalink: /about_me/
         </td>
     </tr>
     <tr>
-        <td width="2%" align="center">
+        <td width="1%" align="center">
             <a>　</a>
         </td>
         <td width="44%" align="left">
             <li>Skilled in: C/C++, Python, MATLAB.</li>
         </td>
-        <td width="10%" align="center">
+        <td width="9%" align="center">
             <a>　</a>
         </td>
         <td width="44%" align="left">
@@ -166,13 +172,13 @@ permalink: /about_me/
         </td>
     </tr>
     <tr>
-        <td width="2%" align="center">
+        <td width="1%" align="center">
             <a>　</a>
         </td>
         <td width="44%" align="left">
             <li>Familiar with: HTML, CSS, Java, C#.</li>
         </td>
-        <td width="10%" align="center">
+        <td width="9%" align="center">
             <a>　</a>
         </td>
         <td width="44%" align="left">
