@@ -79,7 +79,7 @@ permalink: /about_me/
 {:toc}
 
 <hr>
-## Education
+### Education
 <table border="0">
     <tr>
         <td width="40%" align="left">
@@ -120,33 +120,61 @@ permalink: /about_me/
 </table>
 
 <hr>
-## Research Interests
+### Research Interests
 * Multi-view learning, dimensional reduction, human emotion recognition, video classification.
 
 <hr>
-## Publications
+### Publications
 * Shuai Guo, Lin Feng, Zhan-Bo Feng et. al. [Multi-view laplacian least squares for human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2019-4-29-MvLLS %}) Neurocomputing, Submitted on 2019.05.
 * Sheng-Lan Liu, Shuai Guo, Hong Qiao et. al. [Multi-view laplacian eigenmaps based on bag-of-neighbors for RGB-D human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2018-11-27-MvLE %}) Information Science, Submitted on 2018.11.
 
 <hr>
-## Projects
+### Projects
 * Shuai Guo, Yang Wang, Bin Wang. [Kinect2.0 RGB-D human video-emotion dataset acquisition and processing.]({{ site.baseurl }}{% post_url /Projects/2018-07-18-Kinect %}) Finished on 2018.07. 
 * Hui-Bing Wang, Shuai Guo, Guo-Chao Liu. [Credit default probability prediction for Dalian FuRuiZe.]({{ site.baseurl }}{% post_url /Projects/2018-04-14-FRZ %}) Finished on 2018.04. 
 * You-Chen Du, Xiang Liu, Shuai Guo, Yang Wang. [Website for site reservation and project approval management.](https://github.com/Time1ess/SRPA) (Python+Django+MySQL) Finished on 2017.10. 
 
 <hr>
-## Skills
-### Computer Skills
-* Skilled in: C/C++, Python, MATLAB. 
-* Familiar with: HTML, CSS, Java, C#. 
-
-### Language Skills
-* English: CET6(451), CET4(544). 
-* Preparing for IETS recently. 
+### Skills
+<table border="0">
+    <tr>
+        <td width="45%" align="left">
+            <h3>Computer Skills</h3>
+        </td>
+        <td width="10%" align="center">
+            <a>　</a>
+        </td>
+        <td width="45%" align="middle">
+            <h3>Language Skills</h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="45%" align="left">
+            <li>Skilled in: C/C++, Python, MATLAB.</li>
+        </td>
+        <td width="10%" align="center">
+            <a>　</a>
+        </td>
+        <td width="45%" align="middle">
+            <li>English: CET6(451), CET4(544).</li>
+        </td>
+    </tr>
+    <tr>
+        <td width="45%" align="left">
+            <li>Familiar with: HTML, CSS, Java, C#.</li>
+        </td>
+        <td width="10%" align="center">
+            <a>　</a>
+        </td>
+        <td width="45%" align="middle">
+            <li>Preparing for IETS recently.</li>
+        </td>
+    </tr>
+</table>
 
 <hr>
-## Honors and Awards
-### Contests
+### Honors and Awards
+#### Contests
 * Mathematical Contest In Modeling. Meritorious Winner (as leader). 2015 and 2014. 
 * China Undergraduate Mathematical Contest in Modeling. Second Prize. 2015. 
 * China ACM-ICPC Invitational Programming Contest. Second Prize (as leader). 2015. 
@@ -155,14 +183,14 @@ permalink: /about_me/
 * ACM-ICPC Programming Contest of LiaoNing Province. First Prize (as leader). 2015. 
 * Mathematical Modeling Contest of LiaoNing Province. First Prize. 2014. 
 
-### Scholarships
+#### Scholarships
 * Technological Innovation Scholarship. 2014, 2015, and 2016. 
 * Recreational Activities Scholarship. 2015. 
 * Memorial scholarship of Xiao-Lin Xu and Jie-Yang Xu. 2015. 
 * Technological Innovation Pacesetter of School of Innovation and Entrepreneurship. 2015 and 2016. 
 
 <hr>
-## Community Work
+### Community Work
 * Leader of Organization Department, Communist Youth League of school. 2015.09-2017.06. 
 * Secretary of Publicity Department, Student Union of school. 2014.09-2015.06. 
 * Vice Minister of Publicity Department, Student Union of school. 2013.09-2014.06. 
