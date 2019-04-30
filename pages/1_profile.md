@@ -121,14 +121,18 @@ permalink: /about_me/
 </table>
 
 
-
 <hr>
 ## Papers
-* Shuai Guo, Lin Feng, Zhan-Bo Feng et. al. [Multi-view Laplacian Least Squares For Human Emotion Recognition.]({{ site.baseurl }}{% post_url /Papers/2019-4-29-MvLLS %}) Neurocomputing, 2019.05. Under review now
-* Sheng-Lan Liu, Shuai Guo, Hong Qiao et. al. [Multi-view Laplacian Eigenmaps Based on Bag-of-Neighbors For RGB-D Human Emotion Recognition.]({{ site.baseurl }}{% post_url /Papers/2018-11-27-MvLE %}) Information Science, 2018.11. Under review now
+* Shuai Guo, Lin Feng, Zhan-Bo Feng et. al. [Multi-view laplacian least squares for human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2019-4-29-MvLLS %}) Neurocomputing, Submitted on 2019.05.
+* Sheng-Lan Liu, Shuai Guo, Hong Qiao et. al. [Multi-view laplacian eigenmaps based on bag-of-neighbors for RGB-D human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2018-11-27-MvLE %}) Information Science, Submitted on 2018.11.
 
+<hr>
+## Projects
+* Shuai Guo, Yang Wang, Bin Wang. [Kinect2.0 RGB-D human video-emotion dataset acquisition and processing.]({{ site.baseurl }}{% post_url /Projects/2018-7-18-Kinect %}) Finished on 2018.07. 
+* Hui-Bing Wang, Shuai Guo, You-Chen Du. [Credit default probability prediction for Dalian FuRuiZe.]({{ site.baseurl }}{% post_url /Projects/2015-02-10-FRZ %}) Finished on 2018.04. 
 
-### About comments
+<hr>
+## Projects
 Add a variable called `comments` to the [YAML front matter](http://jekyllrb.com/docs/frontmatter/) and set its value to true. A sample might look like:
 
     ---
