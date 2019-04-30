@@ -80,8 +80,6 @@ permalink: /about_me/
 
 ## Education
 
-<!-- BEng, DaLian University of Technology Computer Science and Technology 2013.09-2017.06 -->
-
 <body>
     <table border="0">
         <tr>
@@ -121,15 +119,9 @@ permalink: /about_me/
     </table>
 </body>
 
-### Admin tools
-* site [configuration file](https://github.com/LiXizhi/lixizhi.github.io/blob/master/_config.yml)
-* Jekyll + [lixizhi.duoshuo.com](http://lixizhi.duoshuo.com/admin/)
-* Jekyll + [lixizhi.disqus.com](http://lixizhi.disqus.com/admin/)
-* Jekyll theme templates: [jekyllthemes.org](http://jekyllthemes.org)
-   * Theme used: [cool-concise](http://jekyllthemes.org/themes/cool-concise-high-end/)
-* Jekyll official site: [jekyllrb.com](http://jekyllrb.com)
-* YAML for human readable markdown: [yaml.org](http://www.yaml.org/)
-* markdown reference: [kramdown](http://kramdown.gettalong.org/quickref.html)
+## Papers
+* [Link]({{ site.baseurl }}{% link _posts/Papers/2019-4-29-MvLLS.md %})
+
 
 ### About comments
 Add a variable called `comments` to the [YAML front matter](http://jekyllrb.com/docs/frontmatter/) and set its value to true. A sample might look like:
