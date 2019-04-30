@@ -78,10 +78,48 @@ permalink: /about_me/
 * content
 {:toc}
 
-## About the site
-This is a personal website of LiXizhi, created with github and jekyll. 
-Create your own website is as easy as clone or fork a [template](https://github.com/LiXizhi/lixizhi.github.io) on github, and [commit](http://jekyllrb.com/docs/posts/) to `_posts` folder. 
+## Education
 
+<!-- BEng, DaLian University of Technology Computer Science and Technology 2013.09-2017.06 -->
+
+<body>
+    <table border="0">
+        <tr>
+            <td width="30%" align="left">
+                MSc, Dalian University of Technology
+            </td>
+            <td width="10%" align="center">
+                <a>　</a>
+            </td>
+            <td width="30%" align="left">
+                Computer Application Technology (Postgraduate Recommended)
+            </td>
+            <td width="10%" align="center">
+                <a>　</a>
+            </td>
+            <td width="20%" align="left">
+                2017.09-Present
+            </td>
+        </tr>
+        <tr>
+            <td width="30%" align="left">
+                BEng, Dalian University of Technology
+            </td>
+            <td width="10%" align="center">
+                <a>　</a>
+            </td>
+            <td width="30%" align="left">
+                Computer Science And Technology
+            </td>
+            <td width="10%" align="center">
+                <a>　</a>
+            </td>
+            <td width="20%" align="left">
+                2013.09-2017.06
+            </td>
+        </tr>
+    </table>
+</body>
 
 ### Admin tools
 * site [configuration file](https://github.com/LiXizhi/lixizhi.github.io/blob/master/_config.yml)
