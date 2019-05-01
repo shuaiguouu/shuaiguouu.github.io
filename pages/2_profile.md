@@ -144,10 +144,10 @@ permalink: /about_me/
 ## Skills
 <table border="0">
     <tr>
-        <td colspan="2" align="left">
+        <td width="50%" colspan="2" align="left">
             <h3>Computer Skills</h3>
         </td>
-        <td colspan="2" align="left">
+        <td width="50%" colspan="2" align="left">
             <h3>Language Skills</h3>
         </td>
     </tr>
