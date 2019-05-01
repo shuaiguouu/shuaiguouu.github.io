@@ -206,7 +206,11 @@ permalink: /about_me/
 * Technological Innovation Pacesetter of School of Innovation and Entrepreneurship. 2015 and 2016. 
 
 <hr>
-## Community Work
+## Community Works
 * Leader of Organization Department, Communist Youth League of school. 2015.09-2017.06. 
 * Secretary of Publicity Department, Student Union of school. 2014.09-2015.06. 
 * Vice Minister of Publicity Department, Student Union of school. 2013.09-2014.06. 
+
+<hr>
+## Motto
+* Youth gives you light, please don't let it down. 
