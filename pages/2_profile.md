@@ -190,7 +190,16 @@ permalink: /about_me/
 <hr>
 ## Honors and Awards
 
-### Contests
+<table border="0">
+    <tr>
+        <td width="10%" align="center">
+            <a>　</a>
+        </td>
+        <td width="90%" align="left">
+            <h3>Contests</h3>
+        </td>
+    </tr>
+</table>
 * Mathematical Contest In Modeling. Meritorious Winner (as leader). 2015 and 2014. 
 * China Undergraduate Mathematical Contest in Modeling. Second Prize. 2015. 
 * China ACM-ICPC Invitational Programming Contest. Second Prize (as leader). 2015. 
@@ -199,7 +208,16 @@ permalink: /about_me/
 * ACM-ICPC Programming Contest of LiaoNing Province. First Prize (as leader). 2015. 
 * Mathematical Modeling Contest of LiaoNing Province. First Prize. 2014. 
 
-### Scholarships
+<table border="0">
+    <tr>
+        <td width="10%" align="center">
+            <a>　</a>
+        </td>
+        <td width="90%" align="left">
+            <h3>Scholarships</h3>
+        </td>
+    </tr>
+</table>
 * Technological Innovation Scholarship. 2014, 2015, and 2016. 
 * Recreational Activities Scholarship. 2015. 
 * Memorial scholarship of Xiao-Lin Xu and Jie-Yang Xu. 2015. 
