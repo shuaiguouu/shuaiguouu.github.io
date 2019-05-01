@@ -102,7 +102,7 @@ permalink: /about_me/
         <td width="2%" align="center">
             <a>　</a>
         </td>
-        <td width="18%" align="left">
+        <td width="18%" align="right">
             2017.09-Present
         </td>
     </tr>
@@ -119,7 +119,7 @@ permalink: /about_me/
         <td width="2%" align="center">
             <a>　</a>
         </td>
-        <td width="18%" align="left">
+        <td width="18%" align="right">
             2013.09-2017.06
         </td>
     </tr>
@@ -144,16 +144,10 @@ permalink: /about_me/
 ## Skills
 <table border="0">
     <tr>
-        <td width="1%" align="center">
-            <a>　</a>
-        </td>
-        <td width="44%" align="left">
+        <td colspan="2" align="left">
             <h3>Computer Skills</h3>
         </td>
-        <td width="9%" align="center">
-            <a>　</a>
-        </td>
-        <td width="44%" align="left">
+        <td colspan="2" align="left">
             <h3>Language Skills</h3>
         </td>
     </tr>
@@ -161,13 +155,13 @@ permalink: /about_me/
         <td width="1%" align="center">
             <a>　</a>
         </td>
-        <td width="44%" align="left">
+        <td width="49%" align="left">
             <li>Skilled in: C/C++, Python, MATLAB.</li>
         </td>
-        <td width="9%" align="center">
+        <td width="1%" align="center">
             <a>　</a>
         </td>
-        <td width="44%" align="left">
+        <td width="49%" align="left">
             <li>English: CET6(451), CET4(544).</li>
         </td>
     </tr>
@@ -175,13 +169,13 @@ permalink: /about_me/
         <td width="1%" align="center">
             <a>　</a>
         </td>
-        <td width="44%" align="left">
+        <td width="49%" align="left">
             <li>Familiar with: HTML, CSS, Java, C#.</li>
         </td>
-        <td width="9%" align="center">
+        <td width="1%" align="center">
             <a>　</a>
         </td>
-        <td width="44%" align="left">
+        <td width="49%" align="left">
             <li>Preparing for IETS recently.</li>
         </td>
     </tr>
@@ -190,16 +184,7 @@ permalink: /about_me/
 <hr>
 ## Honors and Awards
 
-<table border="0">
-    <tr>
-        <td width="10%" align="center">
-            <a>　</a>
-        </td>
-        <td width="90%" align="left">
-            <h3>Contests</h3>
-        </td>
-    </tr>
-</table>
+### Contests
 * Mathematical Contest In Modeling. Meritorious Winner (as leader). 2015 and 2014. 
 * China Undergraduate Mathematical Contest in Modeling. Second Prize. 2015. 
 * China ACM-ICPC Invitational Programming Contest. Second Prize (as leader). 2015. 
@@ -208,16 +193,7 @@ permalink: /about_me/
 * ACM-ICPC Programming Contest of LiaoNing Province. First Prize (as leader). 2015. 
 * Mathematical Modeling Contest of LiaoNing Province. First Prize. 2014. 
 
-<table border="0">
-    <tr>
-        <td width="10%" align="center">
-            <a>　</a>
-        </td>
-        <td width="90%" align="left">
-            <h3>Scholarships</h3>
-        </td>
-    </tr>
-</table>
+### Scholarships
 * Technological Innovation Scholarship. 2014, 2015, and 2016. 
 * Recreational Activities Scholarship. 2015. 
 * Memorial scholarship of Xiao-Lin Xu and Jie-Yang Xu. 2015. 
