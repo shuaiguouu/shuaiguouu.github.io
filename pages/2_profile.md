@@ -144,10 +144,16 @@ permalink: /about_me/
 ## Skills
 <table border="0">
     <tr>
-        <td width="50%" colspan="2" align="left">
+        <td width="1%" align="center">
+            <a>　</a>
+        </td>
+        <td width="44%" align="left">
             <h3>Computer Skills</h3>
         </td>
-        <td width="50%" colspan="2" align="left">
+        <td width="9%" align="center">
+            <a>　</a>
+        </td>
+        <td width="44%" align="left">
             <h3>Language Skills</h3>
         </td>
     </tr>
@@ -155,13 +161,13 @@ permalink: /about_me/
         <td width="1%" align="center">
             <a>　</a>
         </td>
-        <td width="49%" align="left">
+        <td width="44%" align="left">
             <li>Skilled in: C/C++, Python, MATLAB.</li>
         </td>
-        <td width="1%" align="center">
+        <td width="9%" align="center">
             <a>　</a>
         </td>
-        <td width="49%" align="left">
+        <td width="44%" align="left">
             <li>English: CET6(451), CET4(544).</li>
         </td>
     </tr>
@@ -169,13 +175,13 @@ permalink: /about_me/
         <td width="1%" align="center">
             <a>　</a>
         </td>
-        <td width="49%" align="left">
+        <td width="44%" align="left">
             <li>Familiar with: HTML, CSS, Java, C#.</li>
         </td>
-        <td width="1%" align="center">
+        <td width="9%" align="center">
             <a>　</a>
         </td>
-        <td width="49%" align="left">
+        <td width="44%" align="left">
             <li>Preparing for IETS recently.</li>
         </td>
     </tr>
