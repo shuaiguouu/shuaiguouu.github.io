@@ -141,13 +141,13 @@ Multi-view deep learning, two-stream convolutional networks, 3D-CNN, video class
 <hr>
 ## Papers
 * <b>Shuai Guo</b>, Lin Feng, Zhan-Bo Feng et. al. [Multi-view laplacian least squares for human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2019-4-29-MvLLS %}) Neurocomputing, Submitted on 2019.05.
-* Sheng-Lan Liu, <b>Shuai Guo</b>, Hong Qiao et. al. [Multi-view laplacian eigenmaps based on bag-of-neighbors for RGB-D human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2018-11-27-MvLE %}) Information Science, Submitted on 2018.11.
+* Sheng-Lan Liu, <b>Shuai Guo</b>, Hong Qiao et. al. [Multi-view laplacian eigenmaps based on bag-of-neighbors for RGB-D human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2018-11-27-MvLE %}) Information Science, Submitted on 2018.11. 
 
 <hr>
 ## Projects
-* Shuai Guo, Yang Wang, Bin Wang. [Kinect2.0 RGB-D human video-emotion dataset acquisition and processing.]({{ site.baseurl }}{% post_url /Projects/2018-07-18-Kinect %}) Finished on 2018.07. 
-* Hui-Bing Wang, Shuai Guo, Guo-Chao Liu. [Credit default probability prediction for Dalian FuRuiZe.]({{ site.baseurl }}{% post_url /Projects/2018-04-14-FRZ %}) Finished on 2018.04. 
-* You-Chen Du, Xiang Liu, Shuai Guo, Yang Wang. [Website for site reservation and project approval management.](https://github.com/Time1ess/SRPA) (Python+Django+MySQL) Finished on 2017.10. 
+* <b>Shuai Guo</b>, Yang Wang, Bin Wang. [Kinect2.0 RGB-D human video-emotion dataset acquisition and processing.]({{ site.baseurl }}{% post_url /Projects/2018-07-18-Kinect %}) Finished on 2018.07. 
+* Hui-Bing Wang, <b>Shuai Guo</b>, Guo-Chao Liu. [Credit default probability prediction for Dalian FuRuiZe.]({{ site.baseurl }}{% post_url /Projects/2018-04-14-FRZ %}) Finished on 2018.04. 
+* You-Chen Du, Xiang Liu, <b>Shuai Guo</b>, Yang Wang. [Website for site reservation and project approval management.](https://github.com/Time1ess/SRPA) (Python+Django+MySQL) Finished on 2017.10. 
 
 <hr>
 ## Skills
