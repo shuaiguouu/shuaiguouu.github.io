@@ -13,7 +13,7 @@ layout: frontpage
           <p><span class="glyphicon glyphicon-envelope"></span> {{ site.email }} <span class="glyphicon glyphicon-phone-alt"></span> {{ 18940976593 }}
           </p>
           <p>MSc studying on Computer Science and Technology</p>
-          <p>I'll graduate on July, 2020. I really wish to pursue a <b> doctoral degree </b> under your supervision. </p>
+          <p>I'll graduate on July, 2020. I\'m looking forward to an opportunity to pursue a <b> doctoral degree </b>. </p>
           <p>Research interests: multi-view learning, dimensional reduction, human emotion recognition, video classification. </p>
 <!--           <p>Tel: 18940976593</p> -->
         </td>
