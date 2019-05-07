@@ -130,7 +130,7 @@ permalink: /about_me/
 ### Self evaluation
 * I\'m familiar with multi-view learning method such as CCA, MCCA, PLS and MvDA. 
 * I\'m familiar with dimensional reduction methods such as PCA, LE, LDA, and LLE. 
-* I have experience in the usage of 3D CNN and video classification. 
+* I have experience in the usage of 3D CNN, two-stream convolutional network and video classification. 
 
 ### Research Interests
 Multi-view learning, dimensional reduction, human emotion recognition, video classification.
