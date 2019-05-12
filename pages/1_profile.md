@@ -132,11 +132,8 @@ permalink: /about_me/
 * I\'m familiar with dimensional reduction methods such as PCA, LE, LDA, and LLE. 
 * I have experience in the usage of 3D CNN, two-stream convolutional network and video classification. 
 
-### Research Interests
-Multi-view learning, dimensional reduction, human emotion recognition, video classification.
-
 ### Future Interests
-Multi-view deep learning, two-stream convolutional networks, 3D-CNN, video classification. 
+Multi-view deep learning, multimedia, two-stream convolutional networks, 3D-CNN, video classification, and any other subjects under your supervision. 
 
 <hr>
 ## Papers
