@@ -130,10 +130,10 @@ permalink: /about_me/
 ### Self evaluation
 * I\'m familiar with multi-view learning method such as CCA, MCCA, PLS and MvDA. 
 * I\'m familiar with dimensional reduction methods such as PCA, LE, LDA, and LLE. 
-* I have experience in the usage of 3D CNN, two-stream convolutional network and video classification. 
+* I have experience in the usage of 3D CNN, two-stream convolutional network, video classification, music classification and data visualization. 
 
 ### Future Interests
-Multi-view deep learning, multimedia, two-stream convolutional networks, 3D-CNN, video classification, and any other subjects under your supervision. 
+Multi-view deep learning, multimedia, video processing, audio processing, and <b> any other subjects under your supervision </b>. 
 
 <hr>
 ## Papers
