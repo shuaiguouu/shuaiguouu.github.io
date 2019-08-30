@@ -188,7 +188,7 @@ Multi-view learning, dimensional reduction, multimedia, image and video processi
             <a>　</a>
         </td>
         <td width="44%" align="left">
-            <li>Preparing for IETS recently.</li>
+            <!-- <li>Preparing for IETS recently.</li> -->
         </td>
     </tr>
 </table>
@@ -220,4 +220,4 @@ Multi-view learning, dimensional reduction, multimedia, image and video processi
 
 <hr>
 ## Motto
-* Youth gives you light, please don\'t let it down. 
+* Great undertakings have small beginnings, and difficult tasks are tackled from where it's easy. 
