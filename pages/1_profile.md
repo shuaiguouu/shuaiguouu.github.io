@@ -138,7 +138,7 @@ Multi-view learning, dimensional reduction, multimedia, image and video processi
 <hr>
 ## Papers
 * <b>Shuai Guo</b>, Lin Feng, Zhan-Bo Feng et. al. [Multi-view laplacian least squares for human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2019-4-29-MvLLS %}) Neurocomputing, Submitted on 2019.05, Accepted.
-* Sheng-Lan Liu, <b>Shuai Guo</b>, Hong Qiao et. al. [Multi-view laplacian eigenmaps based on bag-of-neighbors for RGB-D human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2018-11-27-MvLE %}) Information Science, Submitted on 2018.11, Required Reviews Completed now. 
+* Sheng-Lan Liu, <b>Shuai Guo</b>, Hong Qiao et. al. [Multi-view laplacian eigenmaps based on bag-of-neighbors for RGB-D human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2018-11-27-MvLE %}) Information Science, Submitted on 2018.11, Accepted. 
 
 <hr>
 ## Projects
