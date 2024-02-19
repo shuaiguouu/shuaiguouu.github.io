@@ -24,7 +24,7 @@ permalink: /about_me/
                 Links: 
             </td>
             <td width="4%" align="center">
-                <a>　</a>
+                <a></a>
             </td>
             <td width="16%" align="left">
             <a href="mailto:{{ site.email }}">
@@ -36,7 +36,7 @@ permalink: /about_me/
             </a>
             </td>
             <td width="4%" align="center">
-                <a>　</a>
+                <a></a>
             </td>
             <td width="16%" align="left">
             <a href="https://github.com/{{ site.github_username }}">
@@ -49,7 +49,7 @@ permalink: /about_me/
             </a>
             </td>
             <td width="4%" align="center">
-                <a>　</a>
+                <a></a>
             </td>
             <td width="16%" align="left">
             <a href="https://blog.csdn.net/qq_30565883">
@@ -62,7 +62,7 @@ permalink: /about_me/
             </a>
             </td>
             <td width="4%" align="center">
-                <a>　</a>
+                <a></a>
             </td>
             <td width="16%" align="left">
             <a href="https://s2.ax1x.com/2019/04/30/EGgqoT.png">
@@ -86,38 +86,54 @@ permalink: /about_me/
 
 <hr>
 ## Education
+
 <table border="0">
     <tr>
         <td width="40%" align="left">
-            <li>MSc, Dalian University of Technology</li>
+            <li>Shanghai Jiao Tong University</li>
         </td>
         <td width="2%" align="center">
-            <a>　</a>
+            <a></a>
         </td>
         <td width="38%" align="middle">
-            Computer Application Technology  
-            Supervised by <a href="http://faculty.dlut.edu.cn/1995011005/en/index.htm">Lin Feng</a>
-            (Recommended)
+            Ph.D., Supervised by <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=22&infoid=66&flag=66">Li Song</a>
         </td>
         <td width="2%" align="center">
-            <a>　</a>
+            <a></a>
         </td>
         <td width="18%" align="right">
-            2017.09-Present
+            2017.09-2020.06
         </td>
     </tr>
     <tr>
         <td width="40%" align="left">
-            <li>BEng, Dalian University of Technology</li>
+            <li>Dalian University of Technology</li>
         </td>
         <td width="2%" align="center">
-            <a>　</a>
+            <a></a>
         </td>
         <td width="38%" align="middle">
-            Computer Science And Technology
+            M.S., Supervised by <a href="http://faculty.dlut.edu.cn/fenglin/zh_CN/index.htm">Lin Feng</a>
         </td>
         <td width="2%" align="center">
-            <a>　</a>
+            <a></a>
+        </td>
+        <td width="18%" align="right">
+            2017.09-2020.06
+        </td>
+    </tr>
+    <tr>
+        <td width="40%" align="left">
+            <li>Dalian University of Technology</li>
+        </td>
+        <td width="2%" align="center">
+            <a></a>
+        </td>
+        <td width="38%" align="middle">
+            B.E.
+        </td>
+        <td width="2%" align="center">
+            <a></a>
         </td>
         <td width="18%" align="right">
             2013.09-2017.06

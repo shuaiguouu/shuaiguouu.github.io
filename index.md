@@ -4,13 +4,13 @@ layout: frontpage
 <body>
     <table border="0">
       <tr>
-        <td width="20%" align="center">
+        <td width="15%" align="center">
           <img src="/images/head.png"> 
         </td>
-        <td width="80%">
+        <td width="85%">
           <h1>Shuai Guo</h1>
-          <p>Dalian University of Technology</p>
-          <p><span class="glyphicon glyphicon-envelope"></span> {{ site.email }} <span class="glyphicon glyphicon-phone-alt"></span> {{ 18940976593 }}
+          <p>Shanghai Jiao Tong University</p>
+          <p><span class="glyphicon glyphicon-envelope"></span> {{ site.email }} <span class="glyphicon glyphicon-phone-alt"></span> {{+86-17625973602}}
           </p>
           <p>MSc studying on Computer Science and Technology</p>
 <!--           <p>I'll graduate on July, 2020. I'm looking forward to an opportunity to pursue a <b> doctoral degree </b> now. </p> -->
