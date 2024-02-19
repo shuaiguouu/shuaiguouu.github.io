@@ -87,7 +87,7 @@ I have established extensive cooperation and contacts with research institutions
             <a></a>
         </td>
         <td width="18%" align="right">
-            2017.09-2020.06
+            2020.09-2024.06
         </td>
     </tr>
     <tr>
