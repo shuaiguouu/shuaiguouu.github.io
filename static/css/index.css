@@ -82,15 +82,16 @@ nav{
 	font-weight: bold;
 }
 .post-list-item{
-	display: block;
-	padding:8px 30px 10px 30px; 
-	border-bottom:1px solid #ddd;
-
-	transition:0.4s ease; 
-	-webkit-transition:0.4s ease;
-	-moz-transition:0.4s ease;
-	-o-transition:0.4s ease;
+    display: block;
+    padding: 8px 30px 10px 30px; 
+    border-bottom: 1px solid #ddd;
+    transition: 0.4s ease; 
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    min-height: 100px; /* 设置最小高度，根据需要调整这个值 */
 }
+
 .post-list-item:last-of-type{
 	border-bottom: none;
 }
