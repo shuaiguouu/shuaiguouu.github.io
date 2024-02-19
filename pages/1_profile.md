@@ -9,7 +9,7 @@ permalink: /about_me/
     <table border="0">
       <tr>
         <td width="40%" align="right">
-          <img src="/images/profile.jpg"> 
+          <img src="/images/head.png"> 
         </td>
         <td width="6%" align="center">
         </td>
@@ -84,6 +84,9 @@ permalink: /about_me/
 * content
 {:toc}
 
+I graduate with a Ph.D. from Shanghai Jiao Tong University (985, QS Ranking 51) and completed my Master's and Bachelor's degrees at Dalian University of Technology (985, QS Ranking 491). My research team was led by Professor Zhang Wenjun (a recipient of the National Science Fund for Distinguished Young Scholars) and Professor Song Li from the Institute of Image Communication and Network Engineering at Shanghai Jiao Tong University.
+My research interests include AIGC, 3D Vision, 3D Gaussian Splatting, NeRF, Point Cloud, FVV, DIBR, etc. To date, I have published 16 papers in top international and domestic conferences and journals such as AAAI and IEEE TMM. During my Ph.D., as a team leader, he led more than ten graduate students to participate in major scientific research projects such as the National Key Research and Development Program and the Central Universities' Science and Technology Leading Talent Team Project, with a total funding of over 50 million yuan. I have established extensive cooperation and contacts with research institutions such as Shanghai Jiao Tong University, Dalian University of Technology, the Institute of Automation of the Chinese Academy of Sciences, Liaoning Normal University, and companies like Intel, ZTE, Huawei, Honor, Migu, Mango, Shenzhen Ultra HD, Jiaxing Chao Wei, Yuan Guang Software, and others.
+
 <hr>
 ## Education
 
@@ -142,98 +145,28 @@ permalink: /about_me/
 </table>
 
 <hr>
-## Interests
-### Self evaluation
-* I\'m familiar with multi-view learning method such as CCA, MCCA, PLS and MvDA. 
-* I\'m familiar with dimensional reduction methods such as PCA, LE, LDA, and LLE. 
-* I have experience in the usage of RGB-D image and video, image-processing, 3D CNN, two-stream convolutional network, video classification, music classification and data visualization. 
+## Research Interests
 
-### Future Interests
-Multi-view learning, dimensional reduction, multimedia, image and video processing, and <b> any other subjects under your supervision </b>. 
+AIGC, 3D Computer Vision, 3D GS, NeRF, Point Cloud, FVV, DIBR, Multi-view learning, Multi-modal learning, Emotion Recognition, ...
 
-<hr>
-## Papers
-* <b>Shuai Guo</b>, Lin Feng, Zhan-Bo Feng et. al. [Multi-view laplacian least squares for human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2019-4-29-MvLLS %}) Neurocomputing, Submitted on 2019.05, Accepted.
-* Sheng-Lan Liu, <b>Shuai Guo</b>, Hong Qiao et. al. [Multi-view laplacian eigenmaps based on bag-of-neighbors for RGB-D human emotion recognition.]({{ site.baseurl }}{% post_url /Papers/2018-11-27-MvLE %}) Information Science, Submitted on 2018.11, Accepted. 
-
-<hr>
-## Projects
-* <b>Shuai Guo</b>, Yang Wang, Bin Wang. [Kinect2.0 RGB-D human video-emotion dataset acquisition and processing.]({{ site.baseurl }}{% post_url /Projects/2018-07-18-Kinect %}) Finished on 2018.07. 
-* Hui-Bing Wang, <b>Shuai Guo</b>, Guo-Chao Liu. [Credit default probability prediction for Dalian FuRuiZe.]({{ site.baseurl }}{% post_url /Projects/2018-04-14-FRZ %}) Finished on 2018.04. 
-* You-Chen Du, Xiang Liu, <b>Shuai Guo</b>, Yang Wang. [Website for site reservation and project approval management.](https://github.com/Time1ess/SRPA) (Python+Django+MySQL) Finished on 2017.10. 
-
-<hr>
-## Skills
-<table border="0">
-    <tr>
-        <td width="1%" align="center">
-            <a>　</a>
-        </td>
-        <td width="44%" align="left">
-            <h3>Computer Skills</h3>
-        </td>
-        <td width="9%" align="center">
-            <a>　</a>
-        </td>
-        <td width="44%" align="left">
-            <h3>Language Skills</h3>
-        </td>
-    </tr>
-    <tr>
-        <td width="1%" align="center">
-            <a>　</a>
-        </td>
-        <td width="44%" align="left">
-            <li>Skilled in: C/C++, Python, MATLAB.</li>
-        </td>
-        <td width="9%" align="center">
-            <a>　</a>
-        </td>
-        <td width="44%" align="left">
-            <li>English: IELTS (6.0)</li>
-        </td>
-    </tr>
-    <tr>
-        <td width="1%" align="center">
-            <a>　</a>
-        </td>
-        <td width="44%" align="left">
-            <li>Familiar with: HTML, CSS, Java, C#.</li>
-        </td>
-        <td width="9%" align="center">
-            <a>　</a>
-        </td>
-        <td width="44%" align="left">
-            <!-- <li>Preparing for IETS recently.</li> -->
-        </td>
-    </tr>
-</table>
 
 <hr>
 ## Honors and Awards
 
 ### Contests
-* Mathematical Contest In Modeling. Meritorious Winner (as leader). 2015 and 2014. 
-* China Undergraduate Mathematical Contest in Modeling. Second Prize. 2015. 
-* China ACM-ICPC Invitational Programming Contest. Second Prize (as leader). 2015. 
-* NorthEast Mathematical Contest in Modeling. Second Prize. 2014. 
-* ACM-ICPC Programming Contest of NorthEast. Second Prize (as leader). 2015. 
-* ACM-ICPC Programming Contest of LiaoNing Province. First Prize (as leader). 2015. 
-* Mathematical Modeling Contest of LiaoNing Province. First Prize. 2014. 
+* 8-th, The third "Malanshan Cup" International Audio and Video Algorithm Competition Free Viewpoint Track, 2022
+* Meritorious Winner (as leader), Mathematical Contest In Modeling, 2015 and 2014
+* Second Prize, China Undergraduate Mathematical Contest in Modeling, 2015
+* Second Prize (as leader), China ACM-ICPC Invitational Programming Contest, 2015
+* Second Prize, NorthEast Mathematical Contest in Modeling, 2014
+* Second Prize (as leader), ACM-ICPC Programming Contest of NorthEast, 2015
+* First Prize (as leader), ACM-ICPC Programming Contest of LiaoNing Province, 2015
+* First Prize, Mathematical Modeling Contest of LiaoNing Province, 2014
 
 ### Scholarships
-* Technological Innovation Scholarship. 2014, 2015, and 2016. 
-* Recreational Activities Scholarship. 2015. 
-* Memorial scholarship of Xiao-Lin Xu and Jie-Yang Xu. 2015. 
-* Technological Innovation Pacesetter of School of Innovation and Entrepreneurship. 2015 and 2016. 
-
-<hr>
-## Community Works
-* Leader of Organization Department, Communist Youth League of school. 2015.09-2017.06. 
-* Vice Minister of Publicity Department, Student Union of school. 2014.09-2015.06. 
-* Secretary of Publicity Department, Student Union of school. 2013.09-2014.06. 
-
-
-<hr>
-## Motto
-* Great undertakings have small beginnings, and difficult tasks are tackled from where it's easy. 
+* Outstanding Graduate Graduates of Liaoning Province, 2020
+* Graduate National Scholarship, 2019
+* Technological Innovation Scholarship, 2014, 2015, and 2016
+* Recreational Activities Scholarship, 2015
+* Memorial scholarship of Xiao-Lin Xu and Jie-Yang Xu, 2015
+* Technological Innovation Pacesetter of School of Innovation and Entrepreneurship, 2015 and 2016

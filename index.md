@@ -4,17 +4,17 @@ layout: frontpage
 <body>
     <table border="0">
       <tr>
-        <td width="15%" align="center">
+        <td width="20%" align="center">
           <img src="/images/head.png"> 
         </td>
-        <td width="85%">
+        <td width="80%">
           <h1>Shuai Guo</h1>
           <p>Shanghai Jiao Tong University</p>
-          <p><span class="glyphicon glyphicon-envelope"></span> {{ site.email }} <span class="glyphicon glyphicon-phone-alt"></span> {{+86-17625973602}}
+          <p><span class="glyphicon glyphicon-envelope"></span> {{ site.email }} <span class="glyphicon glyphicon-phone-alt"></span> {{ +86-17625973602 }}
           </p>
-          <p>MSc studying on Computer Science and Technology</p>
+          <!-- <p>MSc studying on Computer Science and Technology</p> -->
 <!--           <p>I'll graduate on July, 2020. I'm looking forward to an opportunity to pursue a <b> doctoral degree </b> now. </p> -->
-          <p>Research interests: multi-view learning, dimensional reduction, human emotion recognition, video classification. </p>
+          <p>Research Interests: multi-view learning, dimensional reduction, human emotion recognition, video classification. </p>
 <!--           <p>Tel: 18940976593</p> -->
         </td>
       </tr>
