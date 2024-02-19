@@ -83,7 +83,7 @@ nav{
 }
 .post-list-item{
 	display: block;
-	padding:8px 30px 8px 30px; 
+	padding:8px 30px; 
 	border-bottom:1px solid #ddd;
 
 	transition:0.4s ease; 
@@ -91,6 +91,11 @@ nav{
 	-moz-transition:0.4s ease;
 	-o-transition:0.4s ease;
 }
+.post-list-item p {
+    margin: 0; /* 移除外边距 */
+    padding: 0; /* 确保没有内边距 */
+}
+
 .post-list-item:last-of-type{
 	border-bottom: none;
 }
@@ -110,7 +115,7 @@ nav{
 /* categories list */
 .categories-list-header {
 	display: block;
-	padding: 12px 12px;
+	padding: 12px 15px;
 	border-bottom: 1px solid #c0c0c0;
 	font-size: 16px;
 	font-weight: bold;
@@ -118,7 +123,7 @@ nav{
 .categories-list-item{
 	color: #2c2c2c;
 	display: block;
-	padding:8px 8px; 
+	padding:8px 15px; 
 	border-bottom:1px solid #ddd; 
 
 	transition:0.4s ease;
@@ -139,7 +144,7 @@ nav{
 	font-weight: bold;
 	color: #fff;
 	background-color: #999;
-	padding: 0 7px 0 7px;
+	padding: 0 7px 1px 7px;
 	border-radius: 9px;
 	float: right;
 	transition:0.4s ease;
@@ -316,7 +321,7 @@ blockquote:last-child {
 	margin: 20px 0;
 }
 .page-content table tr td{
-	padding: 6px 6px;
+	padding: 6px 10px;
 	vertical-align: top;
 
 }
@@ -401,7 +406,7 @@ blockquote:last-child {
 }
 #fall .description{
 	text-align: left;
-	padding: 5px 10px 5px 10px;
+	padding: 5px 10px 10px 10px;
 	text-indent: 2em;
 }
 /**
