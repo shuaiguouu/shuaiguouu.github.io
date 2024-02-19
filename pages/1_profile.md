@@ -135,12 +135,15 @@ AIGC, 3D Computer Vision, 3D GS, NeRF, Point Cloud, FVV, DIBR, Multi-view learni
 ## Projects
 
 * National Key R&D Programmes of China, ￥40M, 2020.09-2023.07
+
 Accelerate Media and Media Analytic algorithm landing in Cloud & Edge Industry Solution on Intel Hardware Platform, Main Student Participant
 
 * Central University Science and Technology Leading Talent Team Project, ￥16.5M, 2022.01-2024.12
+
 Central University Science and Technology Leading Talent Team Project, Main Student Participant
 
 * Intel & SJTU Cooperation Project, ￥130K, 2020.04-2023.09
+
 Accelerate Media and Media Analytic algorithm landing in Cloud & Edge Industry Solution on Intel Hardware Platform, Main Student Participant
 
 <hr>
