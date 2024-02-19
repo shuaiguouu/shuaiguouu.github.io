@@ -131,6 +131,15 @@ I have established extensive cooperation and contacts with research institutions
 
 AIGC, 3D Computer Vision, 3D GS, NeRF, Point Cloud, FVV, DIBR, Multi-view learning, Multi-modal learning, Emotion Recognition.
 
+<hr>
+## Projects
+
+National Key R&D Programmes of China, ￥40M, Accelerate Media and Media Analytic algorithm landing in Cloud & Edge Industry
+Solution on Intel Hardware Platform, Main Student Participant, 2020.09-2023.07
+
+Central University Science and Technology Leading Talent Team Project, ￥16.5M, Central University Science and Technology Leading Talent Team Project, Main Student Participant, 2022.01-2024.12
+
+Intel & SJTU Cooperation Project, ￥130K, Accelerate Media and Media Analytic algorithm landing in Cloud & Edge Industry Solution on Intel Hardware Platform, Main Student Participant, 2020.04-2023.09
 
 <hr>
 ## Honors and Awards
