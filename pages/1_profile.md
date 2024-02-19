@@ -8,13 +8,13 @@ permalink: /about_me/
 <body>
     <table border="0">
       <tr>
-        <td width="30%" align="right">
+        <td width="40%" align="center">
           <img src="/images/head.png"> 
         </td>
         <td width="6%" align="center">
           <!-- 如果这个单元格是空的，确保它的存在是有意义的 -->
         </td>
-        <td width="64%" align="left">
+        <td width="54%" align="left">
           <h2>Shuai Guo</h2>
           <p>Shanghai Jiao Tong University</p>
           <p>E-mail: shuaiguo@sjtu.edu.cn</p>
