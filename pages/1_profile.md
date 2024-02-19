@@ -32,7 +32,9 @@ permalink: /about_me/
                   </span> 
                 </a>
                 <a href="https://scholar.google.com/citations?user=ZMlpuqsAAAAJ&hl=zh-CN">
-                    <svg t="1708344022368" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1467" width="200" height="200"><path d="M512 822.24L0 405.334 512 0z" fill="#4285F4" p-id="1468"></path><path d="M512 822.24l512-416.906L512 0z" fill="#356AC3" p-id="1469"></path><path d="M512 725.334m-298.666 0a298.666 298.666 0 1 0 597.332 0 298.666 298.666 0 1 0-597.332 0Z" fill="#A0C3FF" p-id="1470"></path><path d="M242.074 597.334c47.936-100.906 150.784-170.668 269.926-170.668s221.99 69.762 269.926 170.668H242.074z" fill="#76A7FA" p-id="1471"></path></svg>
+                    <span class="icon">
+                        <svg t="1708344022368" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1467" width="200" height="200"><path d="M512 822.24L0 405.334 512 0z" fill="#4285F4" p-id="1468"></path><path d="M512 822.24l512-416.906L512 0z" fill="#356AC3" p-id="1469"></path><path d="M512 725.334m-298.666 0a298.666 298.666 0 1 0 597.332 0 298.666 298.666 0 1 0-597.332 0Z" fill="#A0C3FF" p-id="1470"></path><path d="M242.074 597.334c47.936-100.906 150.784-170.668 269.926-170.668s221.99 69.762 269.926 170.668H242.074z" fill="#76A7FA" p-id="1471"></path></svg>
+                    </span> 
                 </a>
               </td>
             </tr>
