@@ -21,10 +21,10 @@ layout: default
         <div class="all-posts" post-cate="All">
           {% for post in site.posts %}
             <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
-              <h2 style="color:#2c2c2c;font-size: 10">
+              <h3 style="color:#2c2c2c;font-size: 10">
               {{ post.title }}
-              </h2>
-              <!-- <p style="color:#2c2c2c;font-size: 10">{{ post.subtitle }}</p> -->
+              </h3>
+              <p style="color:#2c2c2c;font-size: 10">{{ post.subtitle }}</p>
               <!-- <span class="">{{ post.date | date: "%b %-d, %Y" }}</span> -->
             </a>
           {% endfor %}
@@ -36,10 +36,10 @@ layout: default
               {% for post in posts %}
                 {% if post.url %}
                   <a href="{{ post.url }}" class="post-list-item">
-                    <h2 style="color:#2c2c2c;font-size: 10">
+                    <h3 style="color:#2c2c2c;font-size: 10">
                     {{ post.title }}
-                    </h2>
-                    <!-- <p style="color:#2c2c2c;font-size: 10">{{ post.subtitle }}</p> -->
+                    </h3>
+                    <p style="color:#2c2c2c;font-size: 10">{{ post.subtitle }}</p>
                     <!-- <span class="">{{ post.date | date: "%b %-d, %Y" }}</span> -->
                   </a>
                 {% endif %}
