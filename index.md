@@ -5,7 +5,7 @@ layout: frontpage
     <table border="0">
       <tr>
         <td width="20%" align="center">
-          <img src="/images/head2.jpg"> 
+          <img src="/images/head.png"> 
         </td>
         <td width="80%">
           <h1>Shuai Guo</h1>

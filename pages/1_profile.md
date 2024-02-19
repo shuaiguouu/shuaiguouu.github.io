@@ -15,9 +15,9 @@ permalink: /about_me/
         </td>
         <td width="54%" align="left">
         <h2>Shuai Guo</h2>
-          <p>Dalian University of Technology</p>
-          <p>E-mail: guoshuaiabc@mail.dlut.edu.cn</p>
-          <p>Tel: 18940976593</p>
+          <p>Shanghai Jiao Tong University</p>
+          <p>E-mail: shuaiguo@sjtu.edu.cn</p>
+          <p>Tel: +86-17625973602</p>
           <table border="0">
             <tr>
             <td width="16%" align="left">

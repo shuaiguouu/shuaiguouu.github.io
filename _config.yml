@@ -1,6 +1,6 @@
 # Site settings
 title: Welcome to ShuaiGuo's Homepage!
-email: guoshuaiabc@mail.dlut.edu.cn
+email: shuaiguo@sjtu.edu.cn
 description: Shuai Guo's Works
 # > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
@@ -10,19 +10,19 @@ description: Shuai Guo's Works
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username: ShuaiGuo95
+github_username: shuaiguouu
 permalink: /:year/:month/:day/:title/
 # this is the url root of the view source link on the footer page.
-viewsourceroot: https://shuaiguo95.github.io/
+viewsourceroot: https://shuaiguouu.github.io/
 # this is the url root of the create page link on the footer page.
-newsourceroot: https://shuaiguo95.github.io/
+newsourceroot: https://shuaiguouu.github.io/
 #########################################
 # for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
 #duoshuo_shortname: lixizhi
 #duoshuo_url: "http://lixizhi.github.io"
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
 disqus_shortname: ShuaiGuo
-disqus_url: "https://shuaiguo95.github.io/"
+disqus_url: "https://shuaiguouu.github.io/"
 #########################################
 
 # Build settings
