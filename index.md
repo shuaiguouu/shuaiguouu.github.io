@@ -10,7 +10,7 @@ layout: frontpage
         <td width="80%">
           <h1>Shuai Guo</h1>
           <p>Shanghai Jiao Tong University</p>
-          <p><span class="glyphicon glyphicon-envelope"></span> {{ site.email }} <span class="glyphicon glyphicon-phone-alt"></span> {{ +86-17625973602 }}
+          <p><span class="glyphicon glyphicon-envelope"></span> {{ site.email }} <span class="glyphicon glyphicon-phone-alt"></span> {+86-17625973602}
           </p>
           <!-- <p>MSc studying on Computer Science and Technology</p> -->
 <!--           <p>I'll graduate on July, 2020. I'm looking forward to an opportunity to pursue a <b> doctoral degree </b> now. </p> -->
