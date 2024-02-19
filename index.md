@@ -4,10 +4,10 @@ layout: frontpage
 <body>
     <table border="0">
       <tr>
-        <td width="10%" align="center">
+        <td width="20%" align="center">
           <img src="/images/head.png"> 
         </td>
-        <td width="90%">
+        <td width="80%">
           <h1>Shuai Guo</h1>
           <p>Shanghai Jiao Tong University</p>
           <p>E-mail: shuaiguo@sjtu.edu.cn</p>
