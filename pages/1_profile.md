@@ -26,9 +26,7 @@ permalink: /about_me/
                 <a href="mailto:{{ site.email }}">
                   <!-- 确保电子邮件链接是直接指定的 -->
                   <span class="icon">
-                    <svg viewBox="0 0 1493 1024">
-                      <path fill="#515151" d="M397.414486 467.263863L0 54.928859v911.181055l397.414486-498.846051m1093.29653 498.579159V46.14685l-405.675421 409.894852 405.675421 509.81403m-1444.214665 58.144268h1396.015291L1032.870973 509.318374c-1.092985 0.991312-1.690314 1.486968-2.230453 2.03346-92.338182 93.748895-184.670009 187.5105-277.014546 281.253041-1.080276 1.092985-2.211389 2.224098-3.533138 2.967582-13.382714 7.422132-31.302587 4.657896-41.971901-6.386338A662481.459167 662481.459167 0 0 1 453.804895 525.713151c-1.575932-1.626769-2.503699-3.876285-4.047858-6.310083l-403.260686 504.584223M1429.738966 0H53.613464l679.913022 705.280445L1429.732612 0"/>
-                    </svg>
+                    <svg t="1708346904115" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7073" width="200" height="200"><path d="M848.76288 333.62432H164.99712C99.32288 333.62432 46.08 386.87232 46.08 452.54144v297.28768c0 65.67424 53.24288 118.92224 118.91712 118.92224h683.77088c65.66912 0 118.91712-53.24288 118.91712-118.92224V452.54144c-0.00512-65.66912-53.248-118.91712-118.92224-118.91712z" fill="#96383D" p-id="7074"></path><path d="M639.8208 51.2h-474.8288a44.58496 44.58496 0 0 0-44.59008 44.59008v609.44896a44.57984 44.57984 0 0 0 44.59008 44.59008h683.776a44.58496 44.58496 0 0 0 44.59008-44.59008V304.73728L639.8208 51.2z" fill="#EBE2CE" p-id="7075"></path><path d="M551.4752 229.57568H209.59232v44.59008h341.88288v-44.59008zM209.59232 794.42432h594.58048v-44.5952H209.59232v44.5952z m0-89.18528h594.58048v-44.5952H209.59232v44.5952z m0-178.37568h594.58048v-44.5952H209.59232v44.5952z m0 89.18528h594.58048v-44.59008H209.59232v44.59008z m0-222.96576v44.59008h594.58048v-44.59008H209.59232z" fill="#C9C1B1" p-id="7076"></path><path d="M941.83936 393.31328L75.60704 955.02848c12.89216 10.93632 29.29664 17.77152 47.44192 17.77152H893.5936c40.91904 0 74.09152-33.4592 74.09152-74.74688V449.60768c-0.00512-22.58432-10.14784-42.58816-25.84576-56.2944z" fill="#D54D54" p-id="7077"></path><path d="M71.99232 396.5696C56.25344 410.18368 46.08 430.08512 46.08 452.54144v445.93152C46.08 939.53024 79.34976 972.8 120.40192 972.8h772.95104c18.20672 0 34.65216-6.79424 47.56992-17.664L71.99232 396.5696z" fill="#EA5455" p-id="7078"></path><path d="M655.52384 66.90816v236.8l237.82912 74.89024V304.73728z" fill="" p-id="7079"></path><path d="M640.66048 52.0448v207.2576a44.58496 44.58496 0 0 0 44.5952 44.5952h207.2576l-251.8528-251.8528z" fill="#FFFBF2" p-id="7080"></path></svg>
                   </span> 
                 </a>
                 <a href="https://scholar.google.com/citations?user=ZMlpuqsAAAAJ&hl=zh-CN">
@@ -46,6 +44,11 @@ permalink: /about_me/
                         <svg t="1708346213000" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3495" width="200" height="200"><path d="M512 0c282.784 0 512 229.216 512 512s-229.216 512-512 512S0 794.784 0 512 229.216 0 512 0z m189.952 752l11.2-108.224c-31.904 9.536-100.928 16.128-147.712 16.128-134.464 0-205.728-47.296-195.328-146.304 11.584-110.688 113.152-145.696 232.64-145.696 54.784 0 122.432 8.8 151.296 18.336L768 272.704C724.544 262.24 678.272 256 599.584 256c-203.2 0-388.704 94.88-406.4 263.488C178.336 660.96 303.584 768 535.616 768c80.672 0 138.464-6.432 166.336-16z" fill="#CE000D" p-id="3496"></path></svg>
                     </span> 
                 </a>                
+                <a href="https://orcid.org/0000-0001-9102-6545">
+                    <span class="icon">
+                        <svg t="1708347159499" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8920" width="200" height="200"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0zM314.4 186.784c22.4 0 40.416 18.4 40.416 40.416s-18.016 40.416-40.416 40.416a40.544 40.544 0 0 1-40.416-40.384c0-22.4 18.016-40.416 40.416-40.416z m-30.784 129.632h61.6v428.416H283.616z m151.968 0h166.4c158.368 0 228 113.184 228 214.4 0 109.984-86.016 214.4-227.2 214.4h-167.2z m61.6 55.584v317.6H595.2c139.616 0 171.616-105.984 171.616-158.816 0-86.016-54.784-158.816-174.816-158.816z" fill="#A6CE39" p-id="8921"></path></svg>
+                    </span> 
+                </a>   
               </td>
             </tr>
           </table>
@@ -58,7 +61,7 @@ permalink: /about_me/
 * content
 {:toc}
 
-## <p></p>
+## <a> </a>
 
 I graduate with a Ph.D. from Shanghai Jiao Tong University (985, QS Ranking 51) and completed my Master and Bachelor degrees at Dalian University of Technology (985, QS Ranking 491). My research team was led by <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=14&infoid=66&flag=66">Prof. Wenjun Zhang</a> (a recipient of the National Science Fund for Distinguished Young Scholars) and <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=22&infoid=66&flag=66">Prof. Li Song</a> from the Institute of Image Communication and Network Engineering at Shanghai Jiao Tong University.
 My research interests include AIGC, 3D Vision, 3D Gaussian Splatting, NeRF, Point Cloud, FVV, DIBR, etc. To date, I have published 16 papers in top international and domestic conferences and journals such as AAAI and IEEE TMM. During my Ph.D., as a team leader, I led more than ten graduate students to participate in scientific research projects such as the National Key Research and Development Program and the Central Universities' Science and Technology Leading Talent Team Project, with a total funding of over 50 million yuan. I have established extensive cooperation and contacts with research institutions such as Shanghai Jiao Tong University, Dalian University of Technology, the Institute of Automation of the Chinese Academy of Sciences, Liaoning Normal University, and companies like Intel, ZTE, Huawei, Honor, Migu, Mango, Shenzhen Ultra HD, Jiaxing Chao Wei, Yuan Guang Software, and others.
