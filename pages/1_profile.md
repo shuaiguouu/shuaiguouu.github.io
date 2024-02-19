@@ -41,6 +41,11 @@ permalink: /about_me/
                         <svg t="1708346022026" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2496" width="200" height="200"><path d="M334.624 587.104a612.576 612.576 0 0 1-58.88-2.208v-216.224c11.232-0.768 24.8-1.152 41.856-1.28l25.216-0.096c73.568 0 114.976 37.92 114.976 106.24 0 69.216-47.008 113.536-123.136 113.536zM896.032 0h-768a128 128 0 0 0-128 128v768a128 128 0 0 0 128 128h768a128 128 0 0 0 128-128V128a128 128 0 0 0-128-128z m-249.6 888.8l-3.808 5.76c-10.752 4.896-27.872 7.84-44.288 7.84-52.48 0-96.672-20.224-126.24-55.808-35.2-40.576-87.52-118.144-136.704-205.824-28.32 0-38.912-0.224-52.608-0.896l-6.912-0.512v144.8c0 48.768 7.84 61.92 31.616 65.504l47.104 6.4 5.536 6.4v26.336l-6.656 6.4a3323.68 3323.68 0 0 0-115.712-2.688c-24.448 0-49.888 0.64-79.584 1.632l-29.792 1.12-6.56-6.4v-26.368l5.248-6.272 34.4-6.4c24.064-4.576 32-17.44 32-65.408V426.272c0-47.968-7.936-60.896-31.872-65.44l-34.464-6.432-5.504-6.176v-26.368l6.656-6.4c52.512 1.504 105.088 1.312 157.568-0.48 31.616-0.928 50.56-1.312 73.312-1.312 114.464 0 188.544 55.68 188.544 155.392 0 70.4-53.376 138.656-124.544 159.456 39.296 68.512 88.672 135.84 132.768 184.192 26.208 28.288 56.704 46.08 84.096 46.08l6.4 6.4z m223.616-586.464c0 19.36-0.352 28.576-1.44 38.816a172.384 172.384 0 0 1-5.76 30.688c-7.936 24.576-20.608 42.24-39.904 55.424-19.2 13.088-43.808 20.192-70.4 20.192-27.232 0-50.4-6.272-69.376-18.912-19.104-12.672-32.8-31.584-40.96-56.32a104.288 104.288 0 0 1-3.84-14.688 283.872 283.872 0 0 1-4.096-40.672 1036.544 1036.544 0 0 1 0-64.64c0.48-13.6 1.824-27.232 4.192-40.608a99.84 99.84 0 0 1 3.808-14.688c8.192-24.8 21.888-43.648 40.992-56.32 18.976-12.672 42.24-18.944 69.472-18.944 13.984 0 26.656 1.664 38.048 4.96 11.36 3.328 21.504 7.84 30.432 13.728s16.512 12.672 22.912 20.48c6.304 7.68 11.52 16 15.456 24.352 3.104 5.536 1.92 11.52-4.48 15.36l-32.416 13.28c-5.984 3.328-12.032 1.152-14.976-4.736-7.936-14.56-13.568-21.536-22.016-26.88a55.232 55.232 0 0 0-32.896-8.672c-14.72 0-21.504 2.272-32.384 9.952a53.504 53.504 0 0 0-21.152 28.704c-2.4 7.296-3.84 14.848-4.352 22.528a824.832 824.832 0 0 0 0 99.84c0.512 7.68 1.952 15.232 4.352 22.528 2.784 10.592 9.472 19.712 18.688 25.6a58.56 58.56 0 0 0 34.912 10.016c12.448 0.352 24.704-3.104 35.2-9.856 8.576-5.792 14.88-14.368 17.824-24.32l1.792-6.24c1.12-3.968 2.016-8.032 2.656-12.128 0.896-5.536 1.12-10.24 1.12-22.56h-49.376l-0.128-0.224c-6.528 0-10.88-4.352-10.88-10.88v-30.08c0-6.432 4.352-10.88 10.88-10.88h97.28c6.432 0 10.88 4.448 10.88 10.88z" fill="#00CCBB" p-id="2497"></path></svg>
                     </span> 
                 </a>
+                <a href="https://blog.csdn.net/qq_30565883?type=blog">
+                    <span class="icon">
+                        <svg t="1708346213000" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3495" width="200" height="200"><path d="M512 0c282.784 0 512 229.216 512 512s-229.216 512-512 512S0 794.784 0 512 229.216 0 512 0z m189.952 752l11.2-108.224c-31.904 9.536-100.928 16.128-147.712 16.128-134.464 0-205.728-47.296-195.328-146.304 11.584-110.688 113.152-145.696 232.64-145.696 54.784 0 122.432 8.8 151.296 18.336L768 272.704C724.544 262.24 678.272 256 599.584 256c-203.2 0-388.704 94.88-406.4 263.488C178.336 660.96 303.584 768 535.616 768c80.672 0 138.464-6.432 166.336-16z" fill="#CE000D" p-id="3496"></path></svg>
+                    </span> 
+                </a>                
               </td>
             </tr>
           </table>
@@ -53,8 +58,10 @@ permalink: /about_me/
 * content
 {:toc}
 
-I graduate with a Ph.D. from Shanghai Jiao Tong University (985, QS Ranking 51) and completed my Master's and Bachelor's degrees at Dalian University of Technology (985, QS Ranking 491). My research team was led by Professor Zhang Wenjun (a recipient of the National Science Fund for Distinguished Young Scholars) and Professor Song Li from the Institute of Image Communication and Network Engineering at Shanghai Jiao Tong University.
-My research interests include AIGC, 3D Vision, 3D Gaussian Splatting, NeRF, Point Cloud, FVV, DIBR, etc. To date, I have published 16 papers in top international and domestic conferences and journals such as AAAI and IEEE TMM. During my Ph.D., as a team leader, he led more than ten graduate students to participate in major scientific research projects such as the National Key Research and Development Program and the Central Universities' Science and Technology Leading Talent Team Project, with a total funding of over 50 million yuan. I have established extensive cooperation and contacts with research institutions such as Shanghai Jiao Tong University, Dalian University of Technology, the Institute of Automation of the Chinese Academy of Sciences, Liaoning Normal University, and companies like Intel, ZTE, Huawei, Honor, Migu, Mango, Shenzhen Ultra HD, Jiaxing Chao Wei, Yuan Guang Software, and others.
+## <p></p>
+
+I graduate with a Ph.D. from Shanghai Jiao Tong University (985, QS Ranking 51) and completed my Master and Bachelor degrees at Dalian University of Technology (985, QS Ranking 491). My research team was led by <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=14&infoid=66&flag=66">Prof. Wenjun Zhang</a> (a recipient of the National Science Fund for Distinguished Young Scholars) and <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=22&infoid=66&flag=66">Prof. Li Song</a> from the Institute of Image Communication and Network Engineering at Shanghai Jiao Tong University.
+My research interests include AIGC, 3D Vision, 3D Gaussian Splatting, NeRF, Point Cloud, FVV, DIBR, etc. To date, I have published 16 papers in top international and domestic conferences and journals such as AAAI and IEEE TMM. During my Ph.D., as a team leader, I led more than ten graduate students to participate in scientific research projects such as the National Key Research and Development Program and the Central Universities' Science and Technology Leading Talent Team Project, with a total funding of over 50 million yuan. I have established extensive cooperation and contacts with research institutions such as Shanghai Jiao Tong University, Dalian University of Technology, the Institute of Automation of the Chinese Academy of Sciences, Liaoning Normal University, and companies like Intel, ZTE, Huawei, Honor, Migu, Mango, Shenzhen Ultra HD, Jiaxing Chao Wei, Yuan Guang Software, and others.
 
 <hr>
 ## Education
@@ -68,7 +75,7 @@ My research interests include AIGC, 3D Vision, 3D Gaussian Splatting, NeRF, Poin
             <a></a>
         </td>
         <td width="38%" align="middle">
-            Ph.D., Supervised by <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=22&infoid=66&flag=66">Li Song</a>
+            Ph.D., Supervised by <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=22&infoid=66&flag=66">Prof. Li Song</a>
         </td>
         <td width="2%" align="center">
             <a></a>
@@ -85,7 +92,7 @@ My research interests include AIGC, 3D Vision, 3D Gaussian Splatting, NeRF, Poin
             <a></a>
         </td>
         <td width="38%" align="middle">
-            M.S., Supervised by <a href="http://faculty.dlut.edu.cn/fenglin/zh_CN/index.htm">Lin Feng</a>
+            M.S., Supervised by <a href="http://faculty.dlut.edu.cn/fenglin/zh_CN/index.htm">Prof. Lin Feng</a>
         </td>
         <td width="2%" align="center">
             <a></a>
