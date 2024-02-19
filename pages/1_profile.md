@@ -8,13 +8,13 @@ permalink: /about_me/
 <body>
     <table border="0">
       <tr>
-        <td width="30%" align="right">
+        <td width="40%" align="right">
           <img src="/images/head.png"> 
         </td>
         <td width="6%" align="center">
           <!-- 如果这个单元格是空的，确保它的存在是有意义的 -->
         </td>
-        <td width="64%" align="left">
+        <td width="54%" align="left">
           <h2>Shuai Guo</h2>
           <p>Shanghai Jiao Tong University</p>
           <p>E-mail: shuaiguo@sjtu.edu.cn</p>
@@ -64,7 +64,10 @@ permalink: /about_me/
 ## <a> </a>
 
 I graduate with a Ph.D. from Shanghai Jiao Tong University (985, QS Ranking 51) and completed my Master and Bachelor degrees at Dalian University of Technology (985, QS Ranking 491). My research team was led by <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=14&infoid=66&flag=66">Prof. Wenjun Zhang</a> (a recipient of the National Science Fund for Distinguished Young Scholars) and <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=22&infoid=66&flag=66">Prof. Li Song</a> from the Institute of Image Communication and Network Engineering at Shanghai Jiao Tong University.
-My research interests include AIGC, 3D Vision, 3D Gaussian Splatting, NeRF, Point Cloud, FVV, DIBR, etc. To date, I have published 16 papers in top international and domestic conferences and journals such as AAAI and IEEE TMM. During my Ph.D., as a team leader, I led more than ten graduate students to participate in scientific research projects such as the National Key Research and Development Program and the Central Universities' Science and Technology Leading Talent Team Project, with a total funding of over 50 million yuan. I have established extensive cooperation and contacts with research institutions such as Shanghai Jiao Tong University, Dalian University of Technology, the Institute of Automation of the Chinese Academy of Sciences, Liaoning Normal University, and companies like Intel, ZTE, Huawei, Honor, Migu, Mango, Shenzhen Ultra HD, Jiaxing Chao Wei, Yuan Guang Software, and others.
+
+My research interests include AIGC, 3D Vision, 3D Gaussian Splatting, NeRF, Point Cloud, FVV, DIBR, etc. To date, I have published 16 papers in top international and domestic conferences and journals such as AAAI and IEEE TMM. During my Ph.D., as a team leader, I led more than ten graduate students to participate in scientific research projects such as the National Key Research and Development Program and the Central University Science and Technology Leading Talent Team Project, with a total funding of over 50 million yuan.
+
+I have established extensive cooperation and contacts with research institutions such as Shanghai Jiao Tong University, Dalian University of Technology, the Institute of Automation of the Chinese Academy of Sciences, Liaoning Normal University, and companies like Intel, ZTE, Huawei, Honor, Migu, Mango, Shenzhen Ultra HD, Jiaxing Chao Wei, Yuan Guang Software, and others.
 
 <hr>
 ## Education
@@ -133,7 +136,7 @@ AIGC, 3D Computer Vision, 3D GS, NeRF, Point Cloud, FVV, DIBR, Multi-view learni
 ## Honors and Awards
 
 ### Contests
-* 8-th, The third "Malanshan Cup" International Audio and Video Algorithm Competition Free Viewpoint Track, 2022
+* 8-th, The third Malanshan Cup International Audio and Video Algorithm Competition Free Viewpoint Track, 2022
 * Meritorious Winner (as leader), Mathematical Contest In Modeling, 2015 and 2014
 * Second Prize, China Undergraduate Mathematical Contest in Modeling, 2015
 * Second Prize (as leader), China ACM-ICPC Invitational Programming Contest, 2015
