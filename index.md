@@ -16,6 +16,7 @@ layout: frontpage
           <table border="0">
             <tr>
               <td align="left" colspan="3"> <!-- 合并列以简化布局 -->
+                Links: 
                 <a href="https://shuaiguouu.github.io/">
                   <!-- 确保电子邮件链接是直接指定的 -->
                   <span class="icon">
