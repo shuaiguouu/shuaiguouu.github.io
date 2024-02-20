@@ -22,12 +22,11 @@ layout: default
           {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
           {% for post in sorted_posts %}
             {% if post.clickable != false %}
+              <!-- 如果帖子是可点击的，渲染为链接 -->
               <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
                 <p style="color:#2c2c2c;font-size: 10">
-                {{ post.title }}
+                  {{ post.title }}
                 </p>
-                <!-- <p style="color:#2c2c2c;font-size: 10">{{ post.subtitle }}</p> -->
-                <!-- <span class="">{{ post.date | date: "%b %-d, %Y" }}</span> -->
               </a>
             {% else %}
               <!-- 如果帖子不可点击，只显示标题，不渲染为链接 -->
