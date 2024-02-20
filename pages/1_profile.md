@@ -61,7 +61,7 @@ permalink: /about_me/
 * content
 {:toc}
 
-## <a> </a>
+<a> </a>
 
 I graduate with a Ph.D. from Shanghai Jiao Tong University (985, QS Ranking 51) and completed my Master and Bachelor degrees at Dalian University of Technology (985, QS Ranking 491). My research team was led by <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=14&infoid=66&flag=66">Prof. Wenjun Zhang</a> (a recipient of the National Science Fund for Distinguished Young Scholars) and <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=22&infoid=66&flag=66">Prof. Li Song</a> from the Institute of Image Communication and Network Engineering at Shanghai Jiao Tong University.
 
