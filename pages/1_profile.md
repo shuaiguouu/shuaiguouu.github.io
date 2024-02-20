@@ -8,13 +8,13 @@ permalink: /about_me/
 <body>
     <table border="0">
       <tr>
-        <td width="40%" align="center">
+        <td width="30%" align="center">
           <img src="/images/head.png"> 
         </td>
         <td width="6%" align="center">
           <!-- 如果这个单元格是空的，确保它的存在是有意义的 -->
         </td>
-        <td width="54%" align="left">
+        <td width="64%" align="left">
           <h2>Shuai Guo</h2>
           <p>Shanghai Jiao Tong University</p>
           <p>E-mail: shuaiguo@sjtu.edu.cn</p>
@@ -163,20 +163,10 @@ Intel Asia-Pacific Research & Development Ltd. (Zizhu High-tech Zone), 2020.06-2
 <hr>
 ## Honors and Awards
 
-### Contests
 * 8-th, The third Malanshan Cup International Audio and Video Algorithm Competition Free Viewpoint Track, 2022
-* Meritorious Winner (as leader), Mathematical Contest In Modeling, 2015 and 2014
-* Second Prize, China Undergraduate Mathematical Contest in Modeling, 2015
-* Second Prize (as leader), China ACM-ICPC Invitational Programming Contest, 2015
-* Second Prize, NorthEast Mathematical Contest in Modeling, 2014
-* Second Prize (as leader), ACM-ICPC Programming Contest of NorthEast, 2015
-* First Prize (as leader), ACM-ICPC Programming Contest of LiaoNing Province, 2015
-* First Prize, Mathematical Modeling Contest of LiaoNing Province, 2014
-
-### Scholarships
 * Outstanding Graduate Graduates of Liaoning Province, 2020
 * Graduate National Scholarship, 2019
-* Technological Innovation Scholarship, 2014, 2015, and 2016
-* Recreational Activities Scholarship, 2015
-* Memorial scholarship of Xiao-Lin Xu and Jie-Yang Xu, 2015
-* Technological Innovation Pacesetter of School of Innovation and Entrepreneurship, 2015 and 2016
+* Technological Innovation Pacesetter of School of Innovation and Entrepreneurship, 2015, 2016
+* Meritorious Winner, Mathematical Contest In Modeling, 2015, 2016
+* Second Prize, China Undergraduate Mathematical Contest in Modeling, 2015
+* Second Prize, China ACM-ICPC Invitational Programming Contest, 2015
