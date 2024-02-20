@@ -63,7 +63,7 @@ permalink: /about_me/
 
 <a> </a>
 
-I graduate with a Ph.D. from Shanghai Jiao Tong University (985, QS Ranking 51) and completed my Master and Bachelor degrees at Dalian University of Technology (985, QS Ranking 491). My research team was led by <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=14&infoid=66&flag=66">Prof. Wenjun Zhang</a> (a recipient of the National Science Fund for Distinguished Young Scholars) and <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=22&infoid=66&flag=66">Prof. Li Song</a> from the Institute of Image Communication and Network Engineering at Shanghai Jiao Tong University.
+I graduate with a Ph.D. from Shanghai Jiao Tong University (985, QS Ranking 51) and completed my Master and Bachelor degrees at Dalian University of Technology (985, 211). My research team was led by <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=14&infoid=66&flag=66">Prof. Wenjun Zhang</a> (a recipient of the National Science Fund for Distinguished Young Scholars) and <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=22&infoid=66&flag=66">Prof. Li Song</a> from the Institute of Image Communication and Network Engineering at Shanghai Jiao Tong University.
 
 My research interests include AIGC, 3D Vision, 3D Gaussian Splatting, NeRF, Point Cloud, FVV, DIBR, etc. To date, I have published 16 papers in top international and domestic conferences and journals such as AAAI and IEEE TMM. During my Ph.D., as a team leader, I led more than ten graduate students to participate in scientific research projects such as the National Key Research and Development Program and the Central University Science and Technology Leading Talent Team Project, with a total funding of over 50 million yuan.
 
