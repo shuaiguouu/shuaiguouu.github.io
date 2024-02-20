@@ -16,9 +16,13 @@ permalink: /about_me/
         </td>
         <td width="59%" align="left">
           <h2>Shuai Guo</h2>
+          <p>Shanghai Jiao Tong University</p>
+          <p>E-mail: shuaiguo@sjtu.edu.cn</p>
+          <p>Tel: +86-17625973602</p>
           <table border="0">
             <tr>
               <td align="left" colspan="3"> <!-- 合并列以简化布局 -->
+                Links: 
                 <a href="https://shuaiguouu.github.io/">
                   <!-- 确保电子邮件链接是直接指定的 -->
                   <span class="icon">
@@ -59,9 +63,6 @@ permalink: /about_me/
               </td>
             </tr>
           </table>
-          <p>Shanghai Jiao Tong University</p>
-          <p>E-mail: shuaiguo@sjtu.edu.cn</p>
-          <p>Tel: +86-17625973602</p>
         </td>
       </tr>
     </table>

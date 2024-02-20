@@ -9,9 +9,14 @@ layout: frontpage
         </td>
         <td width="85%">
           <h1>Shuai Guo</h1>
+          <p>Shanghai Jiao Tong University</p>
+          <p>E-mail: shuaiguo@sjtu.edu.cn</p>
+          <p>Tel: +86-17625973602</p>
+          <p>Research Interests: AIGC, 3D Computer Vision, 3D GS, NeRF, Point Cloud, FVV, DIBR.</p>
           <table border="0">
             <tr>
               <td align="left" colspan="3"> <!-- 合并列以简化布局 -->
+                Links: 
                 <a href="https://shuaiguouu.github.io/">
                   <!-- 确保电子邮件链接是直接指定的 -->
                   <span class="icon">
@@ -52,10 +57,6 @@ layout: frontpage
               </td>
             </tr>
           </table>
-          <p>Shanghai Jiao Tong University</p>
-          <p>E-mail: shuaiguo@sjtu.edu.cn</p>
-          <p>Tel: +86-17625973602</p>
-          <p>Research Interests: AIGC, 3D Computer Vision, 3D GS, NeRF, Point Cloud, FVV, DIBR.</p>
         </td>
       </tr>
     </table>
