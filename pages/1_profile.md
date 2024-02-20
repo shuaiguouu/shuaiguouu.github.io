@@ -140,7 +140,7 @@ I have established extensive cooperation and contacts with research institutions
 <hr>
 ## Research Interests
 
-AIGC, 3D Computer Vision, 3D GS, NeRF, Point Cloud, FVV, DIBR, Multi-view learning, Multi-modal learning, Emotion Recognition.
+AIGC, 3D Computer Vision, 3D GS, NeRF, Point Cloud, FVV, DIBR.
 
 <hr>
 ## Projects

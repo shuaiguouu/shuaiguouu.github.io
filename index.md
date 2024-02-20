@@ -10,8 +10,9 @@ layout: frontpage
         <td width="80%">
           <h1>Shuai Guo</h1>
           <p>Shanghai Jiao Tong University</p>
-          <p>E-mail: shuaiguo@sjtu.edu.cn Tel: +86-17625973602</p>
-          <p>Research Interests: AIGC, 3D Computer Vision, 3D GS, NeRF, Point Cloud, FVV, DIBR, Multi-view learning, Multi-modal learning, Emotion Recognition. </p>
+          <p>E-mail: shuaiguo@sjtu.edu.cn</p>
+          <p>Tel: +86-17625973602</p>
+          <p>Research Interests: AIGC, 3D Computer Vision, 3D GS, NeRF, Point Cloud, FVV, DIBR.</p>
           <table border="0">
             <tr>
               <td align="left" colspan="3"> <!-- 合并列以简化布局 -->
