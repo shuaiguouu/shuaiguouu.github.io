@@ -154,6 +154,12 @@ Central University Science and Technology Leading Talent Team Project, ￥16.5M,
 Intel & SJTU Cooperation Project, ￥130K, 2020.04-2023.09
 * Accelerate Media and Media Analytic algorithm landing in Cloud & Edge Industry Solution on Intel Hardware Platform, Main Student Participant
 
+National Natural Science Foundation Project, ￥600K, 2020.01-2023.12
+* Research on Video Understanding and Multi-Target Parallel Tracking Technology in Complex Traffic Scenarios, Main Student Participant
+
+Intel Asia-Pacific Research & Development Ltd. (Zizhu High-tech Zone), 2020.06-2020.09
+* Introduction of Hardware Encoding and Decoding in OpenCV Based on the Intel Platform, Main Participant
+
 <hr>
 ## Honors and Awards
 
