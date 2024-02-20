@@ -29,7 +29,7 @@ layout: default
               </a>
             {% else %}
               <!-- 如果帖子不可点击，只显示标题，不渲染为链接 -->
-              <a>
+              <a class="post-list-item-no-gradient">
                 <p style="color:#2c2c2c;font-size: 10">
                 {{ post.title }}
                 </p>
@@ -50,7 +50,7 @@ layout: default
                     </a>
                   {% else %}
                     <!-- 如果post.clickable为false，渲染为不可点击 -->
-                    <a>
+                    <a class="post-list-item-no-gradient">
                       <p style="color:#2c2c2c;font-size: 10">
                         {{ post.title }}
                       </p>

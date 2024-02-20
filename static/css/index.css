@@ -111,6 +111,34 @@ nav{
 	
 }
 
+.post-list-item-no-gradient {
+    display: block;
+    padding: 4px 30px; 
+    border-bottom: 0 solid transparent;
+    transition: 0.4s ease; 
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    /* 省略了与背景颜色渐变相关的任何样式 */
+}
+
+.post-list-item-no-gradient p {
+    margin: 0; /* 移除外边距 */
+    padding: 0; /* 确保没有内边距 */
+}
+
+.post-list-item-no-gradient h2{
+    color: #2c2c2c; /* 或其他你希望的颜色 */
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 0;
+}
+
+/* 如果你希望去掉:hover时的背景颜色变化，也可以不包含这部分 */
+.post-list-item-no-gradient:hover {
+    background-color: transparent; /* 设置:hover状态下的背景颜色为透明 */
+}
+
 
 /* categories list */
 .categories-list-header {
