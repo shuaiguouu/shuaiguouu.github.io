@@ -45,14 +45,14 @@ layout: default
                     <!-- 如果post.clickable不存在或不为false，渲染为可点击的链接 -->
                     <a href="{{ post.url }}" class="post-list-item">
                       <p style="color:#2c2c2c;font-size: 10">
-                        {{ post.title }}
+                        {{ post.title | replace: 'Guo S', '<span class="highlight">Guo S</span>' | replace: '郭帅', '<span class="highlight">郭帅</span>' | safe }}
                       </p>
                     </a>
                   {% else %}
                     <!-- 如果post.clickable为false，渲染为不可点击 -->
                     <a class="post-list-item-no-gradient">
                       <p style="color:#2c2c2c;font-size: 10">
-                        {{ post.title }}
+                        {{ post.title | replace: 'Guo S', '<span class="highlight">Guo S</span>' | replace: '郭帅', '<span class="highlight">郭帅</span>' | safe }}
                       </p>
                     </a>
                   {% endif %}

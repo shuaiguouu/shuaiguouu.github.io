@@ -89,7 +89,7 @@ nav{
 }
 .post-list-item{
 	display: block;
-	padding:4px 30px; 
+	padding:5px 30px; 
 	border-bottom: 0 solid transparent;
 
 	transition:0.4s ease; 
@@ -119,7 +119,7 @@ nav{
 
 .post-list-item-no-gradient {
     display: block;
-    padding: 4px 30px; 
+    padding: 5px 30px; 
     border-bottom: 0 solid transparent;
     transition: 0.4s ease; 
     -webkit-transition: 0.4s ease;
@@ -147,11 +147,11 @@ nav{
 
 .highlight {
     font-weight: bold; /* 加粗文字以增加可读性 */
-    color: #5c5c5c; /* 暗灰色文本对浅色背景有好的对比度 */
-    background-color: #d0d1ff; /* 浅紫色背景轻柔且能与#f8f8fd背景形成对比 */
-    padding: 2px 4px; /* 略微增加内边距 */
-    border-radius: 3px; /* 轻微的圆角边框看起来更现代 */
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* 轻微的阴影为文本添加深度 */
+    color: #333333; /* 深灰色文本，以确保在浅灰色背景上的可读性 */
+    background-color: #e0e0e0; /* 浅灰色背景，与页面背景形成对比，但又不会过于突兀 */
+    padding: 3px 5px; /* 略微增加内边距以改善视觉效果 */
+    border-radius: 4px; /* 圆角边框看起来更加柔和 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 轻微的阴影增加了文本的层次感 */
 }
 
 /* categories list */
