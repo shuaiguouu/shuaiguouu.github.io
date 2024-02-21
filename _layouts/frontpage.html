@@ -37,29 +37,28 @@ layout: default
             {% endif %}
           {% endfor %}
         </div>
-          {% for category in site.categories %}
-            <div post-cate="{{category | first}}">
-              {% for posts in category %}
-                {% for post in posts %}
-                  {% if post.clickable != false %}
-                    <!-- 如果post.clickable不存在或不为false，渲染为可点击的链接 -->
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-item">
-                      <p style="color:#2c2c2c;font-size: 10">
-                        {{ post.title | replace: 'Guo S', '<span class="highlight">Guo S</span>' | replace: '郭帅', '<span class="highlight">郭帅</span>' | safe }}
-                      </p>
-                    </a>
-                  {% else %}
-                    <!-- 如果post.clickable为false，渲染为不可点击 -->
-                    <a class="post-list-item-no-gradient">
-                      <p style="color:#2c2c2c;font-size: 10">
-                        {{ post.title | replace: 'Guo S', '<span class="highlight">Guo S</span>' | replace: '郭帅', '<span class="highlight">郭帅</span>' | safe }}
-                      </p>
-                    </a>
-                  {% endif %}
-                {% endfor %}
-              {% endfor %}
+        {% for category in site.categories %}
+          <div post-cate="{{ category | first }}">
+            <!-- Loop through each post in the current category -->
+            {% for post in category.last %}
+            {% if post.clickable != false %}
+            <!-- Render clickable post item -->
+            <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-item">
+              <p style="color:#2c2c2c;font-size: 10">
+                {{ post.title | replace: 'Guo S', '<span class="highlight">Guo S</span>' | replace: '郭帅', '<span class="highlight">郭帅</span>' | safe }}
+              </p>
+            </a>
+            {% else %}
+            <!-- Render non-clickable post item -->
+            <div class="post-list-item-no-gradient">
+              <p style="color:#2c2c2c;font-size: 10">
+                {{ post.title | replace: 'Guo S', '<span class="highlight">Guo S</span>' | replace: '郭帅', '<span class="highlight">郭帅</span>' | safe }}
+              </p>
             </div>
-          {% endfor %}
+            {% endif %}
+            {% endfor %}
+          </div>
+        {% endfor %}
       </div>
     <div class="post-list-bottom">
     </div>
