@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Zhu F, Guo S, Song L, et al. Deep Review and Analysis of Recent NeRFs[J]. APSIPA Transactions on Signal and Information Processing, 2023, 12(1)."
+title:  "Zhu F, Guo S, Song L, et al. Deep Review and Analysis of Recent NeRFs[J]. <b><i>APSIPA Transactions on Signal and Information Processing</b></i>, 2023, 12(1)."
 date:   2023-05-10
 comments: true
 clickable: false
