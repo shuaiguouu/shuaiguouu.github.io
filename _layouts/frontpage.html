@@ -23,15 +23,15 @@ layout: default
           {% for post in sorted_posts %}
             {% if post.clickable != false %}
               <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
-                <p style="color:#2c2c2c;font-size: 10">
-                    {{ page.title | replace: 'Guo S', '<span class="highlightgs">Guo S</span>' | replace: '郭帅', '<span class="highlightgs">郭帅</span>' | safe }}
+                <p style="color:#2c2c2c;font-size: 10px">
+                {{ post.title | replace: 'Guo S', '<span class="highlight">Guo S</span>' | replace: '郭帅', '<span class="highlight">郭帅</span>' | safe }}
                 </p>
               </a>
             {% else %}
               <!-- 如果帖子不可点击，只显示标题，不渲染为链接 -->
               <a class="post-list-item-no-gradient">
-                <p style="color:#2c2c2c;font-size: 10">
-                {{ page.title | replace: 'Guo S', '<span class="highlightgs">Guo S</span>' | replace: '郭帅', '<span class="highlightgs">郭帅</span>' | safe }}
+                <p style="color:#2c2c2c;font-size: 10px">
+                {{ post.title | replace: 'Guo S', '<span class="highlight">Guo S</span>' | replace: '郭帅', '<span class="highlight">郭帅</span>' | safe }}
                 </p>
               </a>
             {% endif %}
@@ -45,14 +45,14 @@ layout: default
                     <!-- 如果post.clickable不存在或不为false，渲染为可点击的链接 -->
                     <a href="{{ post.url }}" class="post-list-item">
                       <p style="color:#2c2c2c;font-size: 10">
-                        {{ page.title | replace: 'Guo S', '<span class="highlightgs">Guo S</span>' | replace: '郭帅', '<span class="highlightgs">郭帅</span>' | safe }}
+                        {{ post.title }}
                       </p>
                     </a>
                   {% else %}
                     <!-- 如果post.clickable为false，渲染为不可点击 -->
                     <a class="post-list-item-no-gradient">
                       <p style="color:#2c2c2c;font-size: 10">
-                        {{ page.title | replace: 'Guo S', '<span class="highlightgs">Guo S</span>' | replace: '郭帅', '<span class="highlightgs">郭帅</span>' | safe }}
+                        {{ post.title }}
                       </p>
                     </a>
                   {% endif %}

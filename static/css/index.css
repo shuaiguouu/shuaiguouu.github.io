@@ -145,7 +145,7 @@ nav{
     background-color: transparent; /* 设置:hover状态下的背景颜色为透明 */
 }
 
-.highlightgs {
+.highlight {
 	font-weight: bold;
 	color: #d35400;
 	background-color: #ffff99;
