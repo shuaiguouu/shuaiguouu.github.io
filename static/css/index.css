@@ -147,7 +147,7 @@ nav{
 
 .highlight {
 	font-weight: bold; /* 加粗文字以增加可读性 */
-	color: #fff;
+	color: #333;
 	background-color: #999;
 	padding: 1px 3px; /* 略微增加内边距以改善视觉效果 */
 	border-radius: 2px; /* 圆角边框看起来更加柔和 */
