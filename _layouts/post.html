@@ -5,7 +5,9 @@ layout: default
   <div id="myArticle" class="col-sm-9">
     <div class="post-area post">
       <header>
-        <h2 style="color:#2c2c2c">{{ page.title }}</h2>
+        <h2 style="color:#2c2c2c">
+          {{ page.title | replace: 'Guo S', '<span class="highlight">Guo S</span>' | replace: '郭帅', '<span class="highlight">郭帅</span>' | safe }}
+        </h2>
         <!-- <p>{% if page.subtitle %} • {{ page.subtitle }}{% endif %}</p> -->
         <p>{% if page.subtitle %}{{ page.subtitle }}{% endif %}</p>
       </header>
